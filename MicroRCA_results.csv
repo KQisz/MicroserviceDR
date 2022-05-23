@@ -1,0 +1,1587 @@
+1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'catalogue', 'shipping', 'front-end', 'carts', 'user', 'orders'}"
+1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+1,orders,svc_latency,1,"[('orders', 0.3832655514989451)]","{'shipping', 'payment', 'carts', 'user', 'orders'}"
+1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'catalogue', 'shipping', 'orders'}"
+1,shipping,service_cpu,3,"[('front-end', 0.2971670658346118), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'catalogue', 'shipping', 'front-end', 'carts', 'user', 'orders'}"
+1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+1,payment,service_memory,3,"[('front-end', 0.3328322595394622), ('orders', 0.24438772808249848), ('payment', 0.13632246386776814)]","{'catalogue', 'shipping', 'payment', 'carts', 'user', 'orders'}"
+1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'catalogue', 'shipping', 'payment', 'front-end', 'carts', 'user', 'orders'}"
+2,front-end,svc_latency,1,"[('front-end', 0.27654000012432406)]","{'catalogue', 'shipping', 'front-end', 'carts', 'user', 'orders'}"
+2,catalogue,svc_latency,2,"[('front-end', 0.369515642661511), ('catalogue', 0.23530530777710018)]","{'catalogue', 'front-end', 'orders'}"
+2,orders,svc_latency,1,"[('orders', 0.4050890289989421)]","{'shipping', 'payment', 'carts', 'user', 'orders'}"
+2,user,svc_latency,3,"[('front-end', 0.3026310969182622), ('orders', 0.1573003073737578), ('user', 0.14291073486495007)]","{'catalogue', 'shipping', 'front-end', 'carts', 'user', 'orders'}"
+2,carts,svc_latency,2,"[('front-end', 0.3875747973915544), ('carts', 0.31291057618548607)]","{'carts', 'orders'}"
+2,payment,svc_latency,1,"[('payment', 0.3556145343038235)]","{'payment', 'orders'}"
+2,shipping,svc_latency,1,"[('shipping', 0.36147629746056714)]","{'shipping', 'orders'}"
+2,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+2,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+2,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+2,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+2,payment,service_cpu,7,"[('front-end', 0.3714075380935668), ('orders', 0.19187279812347335), ('carts', 0.16149013418588604), ('catalogue', 0.12380568842596851), ('user', 0.08104765074285433), ('shipping', 0.0703761904282507), ('payment', 0.0)]","{'catalogue', 'shipping', 'carts', 'user', 'orders'}"
+2,shipping,service_cpu,3,"[('front-end', 0.28580340006075), ('orders', 0.16552883327181972), ('shipping', 0.11402577850825152)]","{'catalogue', 'shipping', 'front-end', 'carts', 'user', 'orders'}"
+2,catalogue,service_memory,2,"[('front-end', 0.3015943543315495), ('catalogue', 0.1606905470763529)]","{'catalogue', 'payment', 'front-end', 'user', 'orders'}"
+2,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+2,user,service_memory,2,"[('front-end', 0.3128650266631487), ('user', 0.2955785145702726)]","{'front-end', 'user'}"
+2,carts,service_memory,1,"[('carts', 0.5405396329646597)]",{'carts'}
+2,payment,service_memory,4,"[('front-end', 0.2752263522938575), ('orders', 0.1618387018294965), ('catalogue', 0.11436064559193165), ('payment', 0.10152915085143946)]","{'catalogue', 'shipping', 'payment', 'front-end', 'carts', 'user', 'orders'}"
+2,shipping,service_memory,4,"[('front-end', 0.30087848052135635), ('orders', 0.14563901353442363), ('catalogue', 0.12473121969405432), ('shipping', 0.10367518357361295)]","{'catalogue', 'shipping', 'front-end', 'carts', 'user', 'orders'}"
+3,front-end,svc_latency,1,"[('front-end', 0.30101270555591686)]","{'catalogue', 'front-end', 'carts', 'user', 'orders'}"
+3,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+3,orders,svc_latency,1,"[('orders', 0.3577373784719842)]","{'shipping', 'payment', 'carts', 'user', 'orders'}"
+3,user,svc_latency,1,"[('user', 0.4516958222908872)]","{'user', 'orders'}"
+3,carts,svc_latency,1,"[('carts', 0.42228369246441755)]","{'carts', 'orders'}"
+3,payment,svc_latency,1,"[('payment', 0.37827045905281875)]","{'payment', 'orders'}"
+3,shipping,svc_latency,1,"[('shipping', 0.3897195996564661)]","{'shipping', 'orders'}"
+3,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+3,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+3,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+3,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+3,payment,service_cpu,10,[],set()
+3,shipping,service_cpu,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+3,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+3,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+3,user,service_memory,2,"[('front-end', 0.40019089001308417), ('user', 0.2579862901232145)]","{'catalogue', 'user', 'orders'}"
+3,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+3,payment,service_memory,3,"[('front-end', 0.35553311675764987), ('orders', 0.23766360175950746), ('payment', 0.1932025300689364)]","{'catalogue', 'payment', 'user', 'orders'}"
+3,shipping,service_memory,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+4,front-end,svc_latency,1,"[('front-end', 0.3053182411546196)]","{'catalogue', 'front-end', 'carts', 'user', 'orders'}"
+4,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+4,orders,svc_latency,1,"[('orders', 0.3261814228278323)]","{'shipping', 'payment', 'carts', 'user', 'orders'}"
+4,user,svc_latency,1,"[('user', 0.39035807866055017)]","{'user', 'orders'}"
+4,carts,svc_latency,1,"[('carts', 0.43818819031860956)]","{'carts', 'orders'}"
+4,payment,svc_latency,1,"[('payment', 0.35946642614042035)]","{'payment', 'orders'}"
+4,shipping,svc_latency,1,"[('shipping', 0.3757602644658643)]","{'shipping', 'orders'}"
+4,catalogue,service_cpu,2,"[('front-end', 0.4594613643153909), ('catalogue', 0.4305341050051167)]","{'catalogue', 'orders'}"
+4,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+4,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+4,carts,service_cpu,1,"[('carts', 0.371671276665688)]","{'catalogue', 'carts'}"
+4,payment,service_cpu,7,"[('front-end', 0.4201599643233611), ('catalogue', 0.2754054807335173), ('orders', 0.15643058049028644), ('user', 0.14800397445283506), ('shipping', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'catalogue', 'user', 'orders'}"
+4,shipping,service_cpu,4,"[('front-end', 0.297374322382605), ('orders', 0.21152028869831865), ('carts', 0.1417558522901923), ('shipping', 0.09658362045841482)]","{'shipping', 'front-end', 'carts', 'orders'}"
+4,catalogue,service_memory,2,"[('front-end', 0.4420708518668568), ('catalogue', 0.40709214667431776)]","{'catalogue', 'carts', 'orders'}"
+4,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+4,user,service_memory,2,"[('front-end', 0.4063975613909172), ('user', 0.23097319490014082)]","{'catalogue', 'user', 'orders'}"
+4,carts,service_memory,1,"[('carts', 0.3287190191662041)]","{'carts', 'payment'}"
+4,payment,service_memory,6,"[('front-end', 0.40269651916593796), ('catalogue', 0.2167769609065538), ('user', 0.14668705961191347), ('orders', 0.14267793756518665), ('carts', 0.09116152275040793), ('payment', 0.0)]","{'catalogue', 'carts', 'user', 'orders'}"
+4,shipping,service_memory,3,"[('front-end', 0.349988370919017), ('orders', 0.2389505679615948), ('shipping', 0.16166107813707)]","{'catalogue', 'shipping', 'carts', 'user', 'orders'}"
+5,front-end,svc_latency,1,"[('front-end', 0.3014412135994915)]","{'catalogue', 'payment', 'front-end', 'carts', 'user', 'orders'}"
+5,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+5,orders,svc_latency,1,"[('orders', 0.3540066822633017)]","{'shipping', 'payment', 'carts', 'user', 'orders'}"
+5,user,svc_latency,1,"[('user', 0.4367381601845278)]","{'user', 'orders'}"
+5,carts,svc_latency,2,"[('front-end', 0.3065459844303672), ('carts', 0.2564274332672696)]","{'front-end', 'carts', 'orders'}"
+5,payment,svc_latency,3,"[('orders', 0.37090584117269854), ('front-end', 0.3152720530910478), ('payment', 0.3138221057362538)]","{'payment', 'orders'}"
+5,shipping,svc_latency,4,"[('front-end', 0.3965284000810173), ('orders', 0.22288487242044586), ('carts', 0.21482754881162647), ('shipping', 0.1657591786869103)]","{'shipping', 'carts', 'orders'}"
+5,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+5,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+5,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+5,carts,service_cpu,1,"[('carts', 0.3851445024640242)]","{'carts', 'orders'}"
+5,payment,service_cpu,6,"[('front-end', 0.32832842278703733), ('catalogue', 0.19149996730186397), ('orders', 0.11110478389626642), ('user', 0.06085363525811657), ('carts', 0.029131587824445734), ('payment', 0.0)]","{'catalogue', 'front-end', 'carts', 'user', 'orders'}"
+5,shipping,service_cpu,3,"[('front-end', 0.2714351013314501), ('orders', 0.19197704464294926), ('shipping', 0.1525067772799274)]","{'catalogue', 'shipping', 'front-end', 'carts', 'user', 'orders'}"
+5,catalogue,service_memory,2,"[('front-end', 0.3160224042573746), ('catalogue', 0.20463926430561516)]","{'catalogue', 'front-end', 'carts', 'user', 'orders'}"
+5,orders,service_memory,4,"[('front-end', 0.33508939419026573), ('catalogue', 0.11677228452891916), ('carts', 0.10410904165157783), ('orders', 0.08960496927376674)]","{'catalogue', 'front-end', 'carts', 'user', 'orders'}"
+5,user,service_memory,5,"[('front-end', 0.31694611559608754), ('orders', 0.13065618215045788), ('catalogue', 0.11485566336707359), ('carts', 0.10178568293637082), ('user', 0.06635031813074216)]","{'catalogue', 'front-end', 'carts', 'user', 'orders'}"
+5,carts,service_memory,2,"[('front-end', 0.30516948048633874), ('carts', 0.1954049575160759)]","{'front-end', 'carts', 'user', 'orders'}"
+5,payment,service_memory,3,"[('front-end', 0.270352743521621), ('orders', 0.17632139000656172), ('payment', 0.13792332690077633)]","{'catalogue', 'payment', 'front-end', 'carts', 'user', 'orders'}"
+5,shipping,service_memory,4,"[('front-end', 0.2945438194911602), ('orders', 0.16783188908725383), ('user', 0.1113357278987296), ('shipping', 0.07291148767133565)]","{'catalogue', 'shipping', 'front-end', 'carts', 'user', 'orders'}"
+1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'shipping', 'front-end', 'orders', 'carts', 'user', 'catalogue'}"
+1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+1,orders,svc_latency,1,"[('orders', 0.3832655514989451)]","{'payment', 'shipping', 'orders', 'carts', 'user'}"
+1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'shipping', 'orders', 'catalogue'}"
+1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795625), ('shipping', 0.10711800087710233)]","{'shipping', 'front-end', 'orders', 'carts', 'user', 'catalogue'}"
+1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.24256222702013486), ('payment', 0.13895370191146994)]","{'payment', 'shipping', 'orders', 'carts', 'user', 'catalogue'}"
+1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'payment', 'shipping', 'front-end', 'orders', 'carts', 'user', 'catalogue'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'catalogue', 'shipping', 'user', 'carts', 'front-end', 'orders'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'shipping', 'payment', 'user', 'carts', 'orders'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'catalogue', 'shipping'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346118), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'catalogue', 'shipping', 'user', 'carts', 'front-end', 'orders'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3328322595394622), ('orders', 0.24438772808249848), ('payment', 0.13632246386776814)]","{'catalogue', 'shipping', 'payment', 'user', 'carts', 'orders'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'catalogue', 'shipping', 'payment', 'user', 'carts', 'front-end', 'orders'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.2799764913752436)]","{'user', 'orders', 'shipping', 'catalogue', 'carts', 'front-end'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'user', 'orders', 'shipping', 'payment', 'carts'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'shipping', 'catalogue'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346118), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710235)]","{'user', 'orders', 'shipping', 'catalogue', 'carts', 'front-end'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.33283225953946216), ('orders', 0.24438772808249845), ('payment', 0.13632246386776814)]","{'user', 'orders', 'shipping', 'catalogue', 'payment', 'carts'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.2834913023706481), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'user', 'orders', 'shipping', 'catalogue', 'payment', 'carts', 'front-end'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'carts', 'front-end', 'orders', 'shipping', 'user', 'catalogue'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'carts', 'payment', 'orders', 'shipping', 'user'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'catalogue', 'shipping'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'carts', 'front-end', 'orders', 'shipping', 'user', 'catalogue'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.24256222702013486), ('payment', 0.13895370191146994)]","{'carts', 'payment', 'orders', 'user', 'shipping', 'catalogue'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'carts', 'front-end', 'payment', 'orders', 'user', 'shipping', 'catalogue'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'shipping', 'catalogue', 'orders', 'front-end', 'carts', 'user'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'shipping', 'orders', 'carts', 'payment', 'user'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'shipping', 'catalogue', 'orders'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346118), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'shipping', 'catalogue', 'orders', 'front-end', 'carts', 'user'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.2425622270201349), ('payment', 0.13895370191146997)]","{'catalogue', 'shipping', 'orders', 'carts', 'payment', 'user'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'catalogue', 'shipping', 'orders', 'front-end', 'carts', 'payment', 'user'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.2799764913752436)]","{'user', 'front-end', 'orders', 'catalogue', 'carts', 'shipping'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.3832655514989451)]","{'payment', 'user', 'orders', 'carts', 'shipping'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'catalogue', 'shipping'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.29716706583461183), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'user', 'front-end', 'orders', 'catalogue', 'carts', 'shipping'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.33283225953946216), ('orders', 0.24438772808249845), ('payment', 0.13632246386776814)]","{'payment', 'user', 'orders', 'catalogue', 'carts', 'shipping'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'payment', 'user', 'front-end', 'orders', 'catalogue', 'carts', 'shipping'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'shipping', 'orders', 'carts', 'user', 'front-end', 'catalogue'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.3832655514989451)]","{'shipping', 'payment', 'orders', 'carts', 'user'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'shipping', 'orders', 'catalogue'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795625), ('shipping', 0.10711800087710233)]","{'shipping', 'orders', 'carts', 'user', 'front-end', 'catalogue'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.24256222702013486), ('payment', 0.13895370191146994)]","{'shipping', 'payment', 'orders', 'user', 'carts', 'catalogue'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'shipping', 'payment', 'orders', 'carts', 'user', 'front-end', 'catalogue'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'orders', 'front-end', 'catalogue', 'carts', 'shipping', 'user'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'orders', 'carts', 'shipping', 'payment', 'user'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'shipping', 'catalogue'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795625), ('shipping', 0.10711800087710233)]","{'orders', 'front-end', 'catalogue', 'carts', 'shipping', 'user'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.24256222702013486), ('payment', 0.13895370191146994)]","{'orders', 'catalogue', 'carts', 'shipping', 'payment', 'user'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'orders', 'front-end', 'catalogue', 'carts', 'shipping', 'payment', 'user'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'shipping', 'user', 'catalogue', 'carts', 'orders', 'front-end'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'shipping', 'user', 'payment', 'carts', 'orders'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'shipping', 'orders', 'catalogue'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346118), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'shipping', 'user', 'catalogue', 'carts', 'orders', 'front-end'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.33283225953946216), ('orders', 0.24438772808249845), ('payment', 0.13632246386776814)]","{'shipping', 'user', 'payment', 'catalogue', 'carts', 'orders'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'shipping', 'user', 'payment', 'catalogue', 'carts', 'orders', 'front-end'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'shipping', 'front-end', 'carts', 'orders', 'user', 'catalogue'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'shipping', 'carts', 'orders', 'user', 'payment'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'shipping', 'catalogue', 'orders'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795625), ('shipping', 0.10711800087710233)]","{'shipping', 'front-end', 'carts', 'orders', 'user', 'catalogue'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.24256222702013486), ('payment', 0.13895370191146994)]","{'shipping', 'carts', 'orders', 'user', 'payment', 'catalogue'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'shipping', 'front-end', 'carts', 'orders', 'user', 'payment', 'catalogue'}"
+folder:2,front-end,svc_latency,1,"[('front-end', 0.27654000012432406)]","{'shipping', 'front-end', 'carts', 'orders', 'user', 'catalogue'}"
+folder:2,catalogue,svc_latency,2,"[('front-end', 0.369515642661511), ('catalogue', 0.23530530777710018)]","{'catalogue', 'orders', 'front-end'}"
+folder:2,orders,svc_latency,1,"[('orders', 0.40508902899894217)]","{'shipping', 'carts', 'orders', 'user', 'payment'}"
+folder:2,user,svc_latency,3,"[('front-end', 0.30263109691826223), ('orders', 0.15730030737375786), ('user', 0.14291073486495012)]","{'shipping', 'front-end', 'carts', 'orders', 'user', 'catalogue'}"
+folder:2,carts,svc_latency,2,"[('front-end', 0.3875747973915544), ('carts', 0.31291057618548607)]","{'carts', 'orders'}"
+folder:2,payment,svc_latency,1,"[('payment', 0.3556145343038235)]","{'payment', 'orders'}"
+folder:2,shipping,svc_latency,1,"[('shipping', 0.36147629746056714)]","{'shipping', 'orders'}"
+folder:2,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:2,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:2,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:2,payment,service_cpu,7,"[('front-end', 0.37140753809356686), ('orders', 0.19187279812347335), ('carts', 0.16149013418588604), ('catalogue', 0.12380568842596851), ('user', 0.08104765074285433), ('shipping', 0.0703761904282507), ('payment', 0.0)]","{'shipping', 'carts', 'orders', 'user', 'catalogue'}"
+folder:2,shipping,service_cpu,3,"[('front-end', 0.28580340006075), ('orders', 0.16552883327181972), ('shipping', 0.11402577850825155)]","{'shipping', 'front-end', 'carts', 'orders', 'user', 'catalogue'}"
+folder:2,catalogue,service_memory,2,"[('front-end', 0.30228208372909554), ('catalogue', 0.16312939971127763)]","{'front-end', 'orders', 'user', 'payment', 'catalogue'}"
+folder:2,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_memory,2,"[('front-end', 0.3128650266631487), ('user', 0.2955785145702726)]","{'user', 'front-end'}"
+folder:2,carts,service_memory,1,"[('carts', 0.5405396329646597)]",{'carts'}
+folder:2,payment,service_memory,4,"[('front-end', 0.27464393156627653), ('orders', 0.16341853615059354), ('catalogue', 0.11276118140789253), ('payment', 0.10010914976992893)]","{'shipping', 'front-end', 'carts', 'orders', 'user', 'payment', 'catalogue'}"
+folder:2,shipping,service_memory,4,"[('front-end', 0.3008784805213563), ('orders', 0.14563901353442363), ('catalogue', 0.12473121969405432), ('shipping', 0.10367518357361295)]","{'shipping', 'front-end', 'carts', 'orders', 'user', 'catalogue'}"
+folder:3,front-end,svc_latency,1,"[('front-end', 0.30101270555591686)]","{'front-end', 'carts', 'orders', 'user', 'catalogue'}"
+folder:3,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,svc_latency,1,"[('orders', 0.3577373784719842)]","{'shipping', 'carts', 'orders', 'user', 'payment'}"
+folder:3,user,svc_latency,1,"[('user', 0.4516958222908872)]","{'user', 'orders'}"
+folder:3,carts,svc_latency,1,"[('carts', 0.42228369246441755)]","{'carts', 'orders'}"
+folder:3,payment,svc_latency,1,"[('payment', 0.37827045905281875)]","{'payment', 'orders'}"
+folder:3,shipping,svc_latency,1,"[('shipping', 0.3897195996564661)]","{'shipping', 'orders'}"
+folder:3,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:3,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_cpu,10,[],set()
+folder:3,shipping,service_cpu,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:3,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_memory,2,"[('front-end', 0.40019089001308417), ('user', 0.2579862901232145)]","{'user', 'catalogue', 'orders'}"
+folder:3,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_memory,3,"[('front-end', 0.3555331167576498), ('orders', 0.2376636017595074), ('payment', 0.19320253006893634)]","{'user', 'payment', 'catalogue', 'orders'}"
+folder:3,shipping,service_memory,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:4,front-end,svc_latency,1,"[('front-end', 0.3053182411546197)]","{'front-end', 'carts', 'orders', 'user', 'catalogue'}"
+folder:4,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:4,orders,svc_latency,1,"[('orders', 0.3261814228278323)]","{'shipping', 'carts', 'orders', 'user', 'payment'}"
+folder:4,user,svc_latency,1,"[('user', 0.39035807866055017)]","{'user', 'orders'}"
+folder:4,carts,svc_latency,1,"[('carts', 0.43818819031860956)]","{'carts', 'orders'}"
+folder:4,payment,svc_latency,1,"[('payment', 0.35946642614042035)]","{'payment', 'orders'}"
+folder:4,shipping,svc_latency,1,"[('shipping', 0.3757602644658643)]","{'shipping', 'orders'}"
+folder:4,catalogue,service_cpu,2,"[('front-end', 0.4594613643153909), ('catalogue', 0.4305341050051167)]","{'catalogue', 'orders'}"
+folder:4,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:4,carts,service_cpu,1,"[('carts', 0.371671276665688)]","{'carts', 'catalogue'}"
+folder:4,payment,service_cpu,7,"[('front-end', 0.4201599643233612), ('catalogue', 0.27540548073351734), ('orders', 0.15643058049028646), ('user', 0.14800397445283509), ('shipping', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'user', 'catalogue', 'orders'}"
+folder:4,shipping,service_cpu,4,"[('front-end', 0.297374322382605), ('orders', 0.21152028869831865), ('carts', 0.1417558522901923), ('shipping', 0.09658362045841482)]","{'carts', 'shipping', 'orders', 'front-end'}"
+folder:4,catalogue,service_memory,2,"[('front-end', 0.4420708518668568), ('catalogue', 0.40709214667431776)]","{'carts', 'catalogue', 'orders'}"
+folder:4,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_memory,2,"[('front-end', 0.4063975613909172), ('user', 0.23097319490014082)]","{'user', 'catalogue', 'orders'}"
+folder:4,carts,service_memory,1,"[('carts', 0.3287190191662041)]","{'carts', 'payment'}"
+folder:4,payment,service_memory,6,"[('front-end', 0.40269651916593796), ('catalogue', 0.21677696090655377), ('user', 0.14668705961191347), ('orders', 0.14267793756518662), ('carts', 0.0911615227504079), ('payment', 0.0)]","{'carts', 'user', 'catalogue', 'orders'}"
+folder:4,shipping,service_memory,3,"[('front-end', 0.34999824014859293), ('orders', 0.23890365173485173), ('shipping', 0.1617158408560066)]","{'shipping', 'carts', 'orders', 'user', 'catalogue'}"
+folder:5,front-end,svc_latency,1,"[('front-end', 0.3014412135994916)]","{'front-end', 'carts', 'orders', 'user', 'payment', 'catalogue'}"
+folder:5,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,svc_latency,1,"[('orders', 0.35400668226330156)]","{'shipping', 'carts', 'orders', 'user', 'payment'}"
+folder:5,user,svc_latency,1,"[('user', 0.4367381601845278)]","{'user', 'orders'}"
+folder:5,carts,svc_latency,2,"[('front-end', 0.3065459844303672), ('carts', 0.2564274332672696)]","{'carts', 'orders', 'front-end'}"
+folder:5,payment,svc_latency,3,"[('orders', 0.37090584117269854), ('front-end', 0.3152720530910478), ('payment', 0.3138221057362538)]","{'payment', 'orders'}"
+folder:5,shipping,svc_latency,4,"[('front-end', 0.39652840008101736), ('orders', 0.22288487242044586), ('carts', 0.21482754881162647), ('shipping', 0.1657591786869103)]","{'carts', 'shipping', 'orders'}"
+folder:5,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:5,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:5,carts,service_cpu,1,"[('carts', 0.3851445024640242)]","{'carts', 'orders'}"
+folder:5,payment,service_cpu,6,"[('front-end', 0.3283284227870374), ('catalogue', 0.19149996730186403), ('orders', 0.11110478389626643), ('user', 0.06085363525811659), ('carts', 0.029131587824445738), ('payment', 0.0)]","{'front-end', 'carts', 'orders', 'user', 'catalogue'}"
+folder:5,shipping,service_cpu,3,"[('front-end', 0.2714351013314502), ('orders', 0.19197704464294932), ('shipping', 0.1525067772799274)]","{'shipping', 'front-end', 'carts', 'orders', 'user', 'catalogue'}"
+folder:5,catalogue,service_memory,2,"[('front-end', 0.3160224042573746), ('catalogue', 0.20463926430561516)]","{'front-end', 'carts', 'orders', 'user', 'catalogue'}"
+folder:5,orders,service_memory,3,"[('front-end', 0.32839726497553634), ('catalogue', 0.1082398832447397), ('orders', 0.10398674524345933)]","{'front-end', 'carts', 'orders', 'user', 'catalogue'}"
+folder:5,user,service_memory,5,"[('front-end', 0.31694611559608754), ('orders', 0.13065618215045788), ('catalogue', 0.11485566336707359), ('carts', 0.10178568293637082), ('user', 0.06635031813074216)]","{'front-end', 'carts', 'orders', 'user', 'catalogue'}"
+folder:5,carts,service_memory,2,"[('front-end', 0.30678285625052404), ('carts', 0.20201971466532848)]","{'carts', 'user', 'orders', 'front-end'}"
+folder:5,payment,service_memory,3,"[('front-end', 0.27035274352162086), ('orders', 0.17632139000656166), ('payment', 0.13792332690077633)]","{'front-end', 'carts', 'orders', 'user', 'payment', 'catalogue'}"
+folder:5,shipping,service_memory,4,"[('front-end', 0.29454381949116026), ('orders', 0.16783188908725383), ('user', 0.1113357278987296), ('shipping', 0.07291148767133565)]","{'shipping', 'front-end', 'carts', 'orders', 'user', 'catalogue'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'front-end', 'shipping', 'catalogue', 'user', 'orders', 'carts'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'shipping', 'payment', 'user', 'orders', 'carts'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'catalogue', 'shipping'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.29716706583461183), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'front-end', 'shipping', 'catalogue', 'user', 'orders', 'carts'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3328322595394622), ('orders', 0.24438772808249848), ('payment', 0.13632246386776814)]","{'shipping', 'catalogue', 'payment', 'user', 'orders', 'carts'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.1735153146298822), ('shipping', 0.08758600792502358)]","{'front-end', 'shipping', 'catalogue', 'payment', 'user', 'orders', 'carts'}"
+folder:2,front-end,svc_latency,1,"[('front-end', 0.27654000012432406)]","{'front-end', 'shipping', 'catalogue', 'user', 'orders', 'carts'}"
+folder:2,catalogue,svc_latency,2,"[('front-end', 0.36951564266151093), ('catalogue', 0.23530530777710015)]","{'orders', 'catalogue', 'front-end'}"
+folder:2,orders,svc_latency,1,"[('orders', 0.4050890289989421)]","{'shipping', 'payment', 'user', 'orders', 'carts'}"
+folder:2,user,svc_latency,3,"[('front-end', 0.3026310969182622), ('orders', 0.15730030737375778), ('user', 0.1429107348649501)]","{'front-end', 'shipping', 'catalogue', 'user', 'orders', 'carts'}"
+folder:2,carts,svc_latency,2,"[('front-end', 0.3875747973915544), ('carts', 0.31291057618548607)]","{'orders', 'carts'}"
+folder:2,payment,svc_latency,1,"[('payment', 0.3556145343038235)]","{'orders', 'payment'}"
+folder:2,shipping,svc_latency,1,"[('shipping', 0.36147629746056714)]","{'orders', 'shipping'}"
+folder:2,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:2,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:2,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:2,payment,service_cpu,7,"[('front-end', 0.3714075380935668), ('orders', 0.19187279812347338), ('carts', 0.16149013418588604), ('catalogue', 0.12380568842596851), ('user', 0.08104765074285433), ('shipping', 0.0703761904282507), ('payment', 0.0)]","{'shipping', 'catalogue', 'user', 'orders', 'carts'}"
+folder:2,shipping,service_cpu,3,"[('front-end', 0.28580340006075), ('orders', 0.16552883327181972), ('shipping', 0.11402577850825152)]","{'front-end', 'shipping', 'catalogue', 'user', 'orders', 'carts'}"
+folder:2,catalogue,service_memory,2,"[('front-end', 0.30159435433154963), ('catalogue', 0.16069054707635297)]","{'front-end', 'catalogue', 'payment', 'user', 'orders'}"
+folder:2,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_memory,2,"[('front-end', 0.3128650266631487), ('user', 0.2955785145702726)]","{'user', 'front-end'}"
+folder:2,carts,service_memory,1,"[('carts', 0.5405396329646597)]",{'carts'}
+folder:2,payment,service_memory,4,"[('front-end', 0.27522635229385745), ('orders', 0.16183870182949647), ('catalogue', 0.11436064559193165), ('payment', 0.10152915085143946)]","{'front-end', 'shipping', 'catalogue', 'payment', 'user', 'orders', 'carts'}"
+folder:2,shipping,service_memory,4,"[('front-end', 0.30087848052135635), ('orders', 0.14563901353442366), ('catalogue', 0.12473121969405432), ('shipping', 0.10367518357361295)]","{'front-end', 'shipping', 'catalogue', 'user', 'orders', 'carts'}"
+folder:3,front-end,svc_latency,1,"[('front-end', 0.30101270555591686)]","{'front-end', 'catalogue', 'user', 'orders', 'carts'}"
+folder:3,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,svc_latency,1,"[('orders', 0.3577373784719842)]","{'shipping', 'payment', 'user', 'orders', 'carts'}"
+folder:3,user,svc_latency,1,"[('user', 0.4516958222908872)]","{'user', 'orders'}"
+folder:3,carts,svc_latency,1,"[('carts', 0.42228369246441766)]","{'orders', 'carts'}"
+folder:3,payment,svc_latency,1,"[('payment', 0.37827045905281875)]","{'orders', 'payment'}"
+folder:3,shipping,svc_latency,1,"[('shipping', 0.3897195996564661)]","{'orders', 'shipping'}"
+folder:3,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:3,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_cpu,10,[],set()
+folder:3,shipping,service_cpu,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:3,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_memory,2,"[('front-end', 0.40019089001308417), ('user', 0.2579862901232145)]","{'orders', 'catalogue', 'user'}"
+folder:3,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_memory,3,"[('front-end', 0.3564657392173768), ('orders', 0.23438166380679903), ('payment', 0.19788647695717984)]","{'orders', 'catalogue', 'user', 'payment'}"
+folder:3,shipping,service_memory,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:4,front-end,svc_latency,1,"[('front-end', 0.3053182411546196)]","{'front-end', 'catalogue', 'user', 'orders', 'carts'}"
+folder:4,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:4,orders,svc_latency,1,"[('orders', 0.3261814228278323)]","{'shipping', 'payment', 'user', 'orders', 'carts'}"
+folder:4,user,svc_latency,1,"[('user', 0.39035807866055017)]","{'user', 'orders'}"
+folder:4,carts,svc_latency,1,"[('carts', 0.43818819031860945)]","{'orders', 'carts'}"
+folder:4,payment,svc_latency,1,"[('payment', 0.3594664261404203)]","{'orders', 'payment'}"
+folder:4,shipping,svc_latency,1,"[('shipping', 0.3757602644658643)]","{'orders', 'shipping'}"
+folder:4,catalogue,service_cpu,2,"[('front-end', 0.4594613643153909), ('catalogue', 0.4305341050051167)]","{'orders', 'catalogue'}"
+folder:4,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:4,carts,service_cpu,1,"[('carts', 0.371671276665688)]","{'catalogue', 'carts'}"
+folder:4,payment,service_cpu,7,"[('front-end', 0.4253390645051841), ('catalogue', 0.28808019065914997), ('orders', 0.14697359978277447), ('user', 0.13960714505289157), ('shipping', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'catalogue', 'user'}"
+folder:4,shipping,service_cpu,4,"[('front-end', 0.299619976587982), ('orders', 0.20856767881449992), ('carts', 0.13664434017204366), ('shipping', 0.10049308987577088)]","{'front-end', 'orders', 'carts', 'shipping'}"
+folder:4,catalogue,service_memory,2,"[('front-end', 0.44121551125215835), ('catalogue', 0.40434018529564475)]","{'orders', 'catalogue', 'carts'}"
+folder:4,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_memory,2,"[('front-end', 0.4063975613909172), ('user', 0.23097319490014082)]","{'orders', 'catalogue', 'user'}"
+folder:4,carts,service_memory,1,"[('carts', 0.3287190191662041)]","{'payment', 'carts'}"
+folder:4,payment,service_memory,6,"[('front-end', 0.4009180405710077), ('catalogue', 0.21291742883975068), ('orders', 0.14647899835172912), ('user', 0.14407541948194003), ('carts', 0.09561011275557253), ('payment', 0.0)]","{'orders', 'catalogue', 'carts', 'user'}"
+folder:4,shipping,service_memory,3,"[('front-end', 0.34998837091901697), ('orders', 0.2389505679615948), ('shipping', 0.16166107813707)]","{'shipping', 'catalogue', 'user', 'orders', 'carts'}"
+folder:5,front-end,svc_latency,1,"[('front-end', 0.3014412135994916)]","{'front-end', 'catalogue', 'payment', 'user', 'orders', 'carts'}"
+folder:5,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,svc_latency,1,"[('orders', 0.3540066822633016)]","{'shipping', 'payment', 'user', 'orders', 'carts'}"
+folder:5,user,svc_latency,1,"[('user', 0.4367381601845278)]","{'user', 'orders'}"
+folder:5,carts,svc_latency,2,"[('front-end', 0.3065459844303672), ('carts', 0.2564274332672696)]","{'front-end', 'orders', 'carts'}"
+folder:5,payment,svc_latency,3,"[('orders', 0.37090584117269854), ('front-end', 0.3152720530910478), ('payment', 0.3138221057362538)]","{'orders', 'payment'}"
+folder:5,shipping,svc_latency,4,"[('front-end', 0.3522320975767339), ('orders', 0.2882116686902977), ('carts', 0.27370122313097917), ('shipping', 0.08585501060198891)]","{'orders', 'carts', 'shipping'}"
+folder:5,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:5,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:5,carts,service_cpu,1,"[('carts', 0.3851445024640242)]","{'orders', 'carts'}"
+folder:5,payment,service_cpu,6,"[('front-end', 0.3283284227870374), ('catalogue', 0.19149996730186403), ('orders', 0.11110478389626643), ('user', 0.06085363525811659), ('carts', 0.029131587824445738), ('payment', 0.0)]","{'front-end', 'catalogue', 'user', 'orders', 'carts'}"
+folder:5,shipping,service_cpu,3,"[('front-end', 0.2714351013314501), ('orders', 0.19197704464294932), ('shipping', 0.1525067772799274)]","{'front-end', 'shipping', 'catalogue', 'user', 'orders', 'carts'}"
+folder:5,catalogue,service_memory,2,"[('front-end', 0.3160224042573746), ('catalogue', 0.20463926430561516)]","{'front-end', 'catalogue', 'user', 'orders', 'carts'}"
+folder:5,orders,service_memory,3,"[('front-end', 0.31864564176656496), ('carts', 0.13386101562424343), ('orders', 0.12183453230746533)]","{'front-end', 'catalogue', 'user', 'orders', 'carts'}"
+folder:5,user,service_memory,5,"[('front-end', 0.31694611559608754), ('orders', 0.13065618215045788), ('catalogue', 0.11485566336707359), ('carts', 0.10178568293637082), ('user', 0.06635031813074216)]","{'front-end', 'catalogue', 'user', 'orders', 'carts'}"
+folder:5,carts,service_memory,2,"[('front-end', 0.30678285625052404), ('carts', 0.20201971466532853)]","{'user', 'orders', 'carts', 'front-end'}"
+folder:5,payment,service_memory,3,"[('front-end', 0.27035274352162086), ('orders', 0.17632139000656166), ('payment', 0.13792332690077633)]","{'front-end', 'catalogue', 'payment', 'user', 'orders', 'carts'}"
+folder:5,shipping,service_memory,4,"[('front-end', 0.2945438194911602), ('orders', 0.16783188908725383), ('user', 0.1113357278987296), ('shipping', 0.07291148767133565)]","{'front-end', 'shipping', 'catalogue', 'user', 'orders', 'carts'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'orders', 'carts', 'front-end', 'shipping', 'user', 'catalogue'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'orders', 'carts', 'payment', 'shipping', 'user'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'shipping', 'catalogue'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795625), ('shipping', 0.10711800087710233)]","{'orders', 'carts', 'front-end', 'shipping', 'user', 'catalogue'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.24256222702013486), ('payment', 0.13895370191146994)]","{'orders', 'carts', 'payment', 'shipping', 'user', 'catalogue'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'orders', 'carts', 'payment', 'front-end', 'shipping', 'user', 'catalogue'}"
+folder:2,front-end,svc_latency,1,"[('front-end', 0.27654000012432406)]","{'orders', 'carts', 'front-end', 'shipping', 'user', 'catalogue'}"
+folder:2,catalogue,svc_latency,2,"[('front-end', 0.36951564266151093), ('catalogue', 0.23530530777710015)]","{'orders', 'front-end', 'catalogue'}"
+folder:2,orders,svc_latency,1,"[('orders', 0.40508902899894217)]","{'orders', 'carts', 'payment', 'shipping', 'user'}"
+folder:2,user,svc_latency,3,"[('front-end', 0.3026310969182623), ('orders', 0.15730030737375783), ('user', 0.1429107348649501)]","{'orders', 'carts', 'front-end', 'shipping', 'user', 'catalogue'}"
+folder:2,carts,svc_latency,2,"[('front-end', 0.3875747973915544), ('carts', 0.31291057618548607)]","{'carts', 'orders'}"
+folder:2,payment,svc_latency,1,"[('payment', 0.3556145343038235)]","{'orders', 'payment'}"
+folder:2,shipping,svc_latency,1,"[('shipping', 0.36147629746056714)]","{'orders', 'shipping'}"
+folder:2,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:2,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:2,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:2,payment,service_cpu,7,"[('front-end', 0.37140753809356686), ('orders', 0.19187279812347335), ('carts', 0.16149013418588604), ('catalogue', 0.12380568842596851), ('user', 0.08104765074285433), ('shipping', 0.0703761904282507), ('payment', 0.0)]","{'orders', 'carts', 'shipping', 'user', 'catalogue'}"
+folder:2,shipping,service_cpu,3,"[('front-end', 0.28580340006075), ('orders', 0.1655288332718197), ('shipping', 0.11402577850825152)]","{'orders', 'carts', 'front-end', 'shipping', 'user', 'catalogue'}"
+folder:2,catalogue,service_memory,2,"[('front-end', 0.3022820837290954), ('catalogue', 0.16312939971127752)]","{'orders', 'payment', 'front-end', 'user', 'catalogue'}"
+folder:2,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_memory,2,"[('front-end', 0.3128650266631487), ('user', 0.2955785145702726)]","{'front-end', 'user'}"
+folder:2,carts,service_memory,1,"[('carts', 0.5405396329646597)]",{'carts'}
+folder:2,payment,service_memory,4,"[('front-end', 0.27464393156627653), ('orders', 0.16341853615059354), ('catalogue', 0.11276118140789254), ('payment', 0.10010914976992895)]","{'orders', 'carts', 'payment', 'front-end', 'shipping', 'user', 'catalogue'}"
+folder:2,shipping,service_memory,4,"[('front-end', 0.3008784805213563), ('orders', 0.14563901353442366), ('catalogue', 0.12473121969405432), ('shipping', 0.10367518357361295)]","{'orders', 'carts', 'front-end', 'shipping', 'user', 'catalogue'}"
+folder:3,front-end,svc_latency,1,"[('front-end', 0.30101270555591686)]","{'orders', 'carts', 'front-end', 'user', 'catalogue'}"
+folder:3,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,svc_latency,1,"[('orders', 0.35773737847198417)]","{'orders', 'carts', 'payment', 'shipping', 'user'}"
+folder:3,user,svc_latency,1,"[('user', 0.4516958222908872)]","{'orders', 'user'}"
+folder:3,carts,svc_latency,1,"[('carts', 0.42228369246441755)]","{'carts', 'orders'}"
+folder:3,payment,svc_latency,1,"[('payment', 0.37827045905281875)]","{'orders', 'payment'}"
+folder:3,shipping,svc_latency,1,"[('shipping', 0.3897195996564661)]","{'orders', 'shipping'}"
+folder:3,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:3,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_cpu,10,[],set()
+folder:3,shipping,service_cpu,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:3,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_memory,2,"[('front-end', 0.40019089001308417), ('user', 0.2579862901232145)]","{'orders', 'user', 'catalogue'}"
+folder:3,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_memory,3,"[('front-end', 0.3564657392173768), ('orders', 0.23438166380679903), ('payment', 0.19788647695717984)]","{'orders', 'payment', 'user', 'catalogue'}"
+folder:3,shipping,service_memory,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:4,front-end,svc_latency,1,"[('front-end', 0.3053182411546197)]","{'orders', 'carts', 'front-end', 'user', 'catalogue'}"
+folder:4,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:4,orders,svc_latency,1,"[('orders', 0.3261814228278323)]","{'orders', 'carts', 'payment', 'shipping', 'user'}"
+folder:4,user,svc_latency,1,"[('user', 0.39035807866055017)]","{'orders', 'user'}"
+folder:4,carts,svc_latency,1,"[('carts', 0.43818819031860956)]","{'carts', 'orders'}"
+folder:4,payment,svc_latency,1,"[('payment', 0.3594664261404203)]","{'orders', 'payment'}"
+folder:4,shipping,svc_latency,1,"[('shipping', 0.3757602644658643)]","{'orders', 'shipping'}"
+folder:4,catalogue,service_cpu,2,"[('front-end', 0.4594613643153909), ('catalogue', 0.4305341050051167)]","{'orders', 'catalogue'}"
+folder:4,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:4,carts,service_cpu,1,"[('carts', 0.371671276665688)]","{'carts', 'catalogue'}"
+folder:4,payment,service_cpu,7,"[('front-end', 0.4253390645051841), ('catalogue', 0.28808019065914997), ('orders', 0.14697359978277447), ('user', 0.13960714505289157), ('shipping', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'user', 'catalogue'}"
+folder:4,shipping,service_cpu,4,"[('front-end', 0.297374322382605), ('orders', 0.21152028869831865), ('carts', 0.1417558522901923), ('shipping', 0.09658362045841482)]","{'carts', 'orders', 'shipping', 'front-end'}"
+folder:4,catalogue,service_memory,2,"[('front-end', 0.4420708518668568), ('catalogue', 0.40709214667431776)]","{'carts', 'orders', 'catalogue'}"
+folder:4,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_memory,2,"[('front-end', 0.4063975613909172), ('user', 0.23097319490014082)]","{'orders', 'user', 'catalogue'}"
+folder:4,carts,service_memory,1,"[('carts', 0.3287190191662041)]","{'carts', 'payment'}"
+folder:4,payment,service_memory,6,"[('front-end', 0.40269651916593796), ('catalogue', 0.21677696090655377), ('user', 0.14668705961191347), ('orders', 0.14267793756518662), ('carts', 0.0911615227504079), ('payment', 0.0)]","{'carts', 'orders', 'user', 'catalogue'}"
+folder:4,shipping,service_memory,3,"[('front-end', 0.34999824014859293), ('orders', 0.23890365173485176), ('shipping', 0.1617158408560066)]","{'orders', 'carts', 'shipping', 'user', 'catalogue'}"
+folder:5,front-end,svc_latency,1,"[('front-end', 0.30144121359949155)]","{'orders', 'carts', 'payment', 'front-end', 'user', 'catalogue'}"
+folder:5,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,svc_latency,1,"[('orders', 0.35400668226330156)]","{'orders', 'carts', 'payment', 'shipping', 'user'}"
+folder:5,user,svc_latency,1,"[('user', 0.43673816018452777)]","{'orders', 'user'}"
+folder:5,carts,svc_latency,2,"[('front-end', 0.3065459844303672), ('carts', 0.2564274332672696)]","{'carts', 'orders', 'front-end'}"
+folder:5,payment,svc_latency,3,"[('orders', 0.37090584117269854), ('front-end', 0.3152720530910478), ('payment', 0.3138221057362538)]","{'orders', 'payment'}"
+folder:5,shipping,svc_latency,4,"[('front-end', 0.39652840008101736), ('orders', 0.22288487242044586), ('carts', 0.21482754881162647), ('shipping', 0.1657591786869103)]","{'carts', 'orders', 'shipping'}"
+folder:5,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:5,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:5,carts,service_cpu,1,"[('carts', 0.3851445024640242)]","{'carts', 'orders'}"
+folder:5,payment,service_cpu,6,"[('front-end', 0.32832842278703733), ('catalogue', 0.19149996730186397), ('orders', 0.11110478389626642), ('user', 0.06085363525811657), ('carts', 0.029131587824445734), ('payment', 0.0)]","{'orders', 'carts', 'front-end', 'user', 'catalogue'}"
+folder:5,shipping,service_cpu,3,"[('front-end', 0.2714351013314501), ('orders', 0.19197704464294932), ('shipping', 0.1525067772799274)]","{'orders', 'carts', 'front-end', 'shipping', 'user', 'catalogue'}"
+folder:5,catalogue,service_memory,2,"[('front-end', 0.3160224042573746), ('catalogue', 0.2046392643056152)]","{'orders', 'carts', 'front-end', 'user', 'catalogue'}"
+folder:5,orders,service_memory,2,"[('front-end', 0.3140247223863658), ('orders', 0.13194820175395675)]","{'orders', 'carts', 'front-end', 'user', 'catalogue'}"
+folder:5,user,service_memory,5,"[('front-end', 0.31694611559608754), ('orders', 0.13065618215045788), ('catalogue', 0.11485566336707359), ('carts', 0.10178568293637082), ('user', 0.06635031813074216)]","{'orders', 'carts', 'front-end', 'user', 'catalogue'}"
+folder:5,carts,service_memory,2,"[('front-end', 0.3131122550109228), ('carts', 0.2214115885229975)]","{'carts', 'orders', 'front-end', 'user'}"
+folder:5,payment,service_memory,3,"[('front-end', 0.2703527435216209), ('orders', 0.17632139000656172), ('payment', 0.13792332690077633)]","{'orders', 'carts', 'payment', 'front-end', 'user', 'catalogue'}"
+folder:5,shipping,service_memory,4,"[('front-end', 0.29454381949116026), ('orders', 0.16783188908725383), ('user', 0.1113357278987296), ('shipping', 0.07291148767133565)]","{'orders', 'carts', 'front-end', 'shipping', 'user', 'catalogue'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'orders', 'catalogue', 'shipping', 'front-end', 'user', 'carts'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'orders', 'shipping', 'payment', 'user', 'carts'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'shipping', 'catalogue'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795625), ('shipping', 0.10711800087710233)]","{'orders', 'catalogue', 'shipping', 'front-end', 'user', 'carts'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.24256222702013486), ('payment', 0.13895370191146994)]","{'orders', 'catalogue', 'shipping', 'payment', 'user', 'carts'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'orders', 'catalogue', 'shipping', 'payment', 'front-end', 'user', 'carts'}"
+folder:2,front-end,svc_latency,1,"[('front-end', 0.27654000012432406)]","{'orders', 'catalogue', 'shipping', 'front-end', 'user', 'carts'}"
+folder:2,catalogue,svc_latency,2,"[('front-end', 0.36951564266151093), ('catalogue', 0.23530530777710015)]","{'orders', 'front-end', 'catalogue'}"
+folder:2,orders,svc_latency,1,"[('orders', 0.40508902899894217)]","{'orders', 'shipping', 'payment', 'user', 'carts'}"
+folder:2,user,svc_latency,3,"[('front-end', 0.3026310969182623), ('orders', 0.15730030737375783), ('user', 0.1429107348649501)]","{'orders', 'catalogue', 'shipping', 'front-end', 'user', 'carts'}"
+folder:2,carts,svc_latency,2,"[('front-end', 0.3875747973915544), ('carts', 0.31291057618548607)]","{'orders', 'carts'}"
+folder:2,payment,svc_latency,1,"[('payment', 0.3556145343038235)]","{'orders', 'payment'}"
+folder:2,shipping,svc_latency,1,"[('shipping', 0.36147629746056714)]","{'orders', 'shipping'}"
+folder:2,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:2,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:2,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:2,payment,service_cpu,7,"[('front-end', 0.37140753809356686), ('orders', 0.19187279812347335), ('carts', 0.16149013418588604), ('catalogue', 0.12380568842596851), ('user', 0.08104765074285433), ('shipping', 0.0703761904282507), ('payment', 0.0)]","{'orders', 'catalogue', 'shipping', 'user', 'carts'}"
+folder:2,shipping,service_cpu,3,"[('front-end', 0.28580340006075), ('orders', 0.1655288332718197), ('shipping', 0.11402577850825152)]","{'orders', 'catalogue', 'shipping', 'front-end', 'user', 'carts'}"
+folder:2,catalogue,service_memory,2,"[('front-end', 0.30228208372909554), ('catalogue', 0.16312939971127763)]","{'orders', 'catalogue', 'payment', 'front-end', 'user'}"
+folder:2,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_memory,2,"[('front-end', 0.3128650266631487), ('user', 0.2955785145702726)]","{'front-end', 'user'}"
+folder:2,carts,service_memory,1,"[('carts', 0.5405396329646597)]",{'carts'}
+folder:2,payment,service_memory,4,"[('front-end', 0.27464393156627653), ('orders', 0.16341853615059354), ('catalogue', 0.11276118140789254), ('payment', 0.10010914976992895)]","{'orders', 'catalogue', 'shipping', 'payment', 'front-end', 'user', 'carts'}"
+folder:2,shipping,service_memory,4,"[('front-end', 0.3008784805213563), ('orders', 0.14563901353442366), ('catalogue', 0.12473121969405432), ('shipping', 0.10367518357361295)]","{'orders', 'catalogue', 'shipping', 'front-end', 'user', 'carts'}"
+folder:3,front-end,svc_latency,1,"[('front-end', 0.30101270555591686)]","{'orders', 'catalogue', 'front-end', 'user', 'carts'}"
+folder:3,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,svc_latency,1,"[('orders', 0.35773737847198417)]","{'orders', 'shipping', 'payment', 'user', 'carts'}"
+folder:3,user,svc_latency,1,"[('user', 0.4516958222908872)]","{'orders', 'user'}"
+folder:3,carts,svc_latency,1,"[('carts', 0.42228369246441766)]","{'orders', 'carts'}"
+folder:3,payment,svc_latency,1,"[('payment', 0.37827045905281875)]","{'orders', 'payment'}"
+folder:3,shipping,svc_latency,1,"[('shipping', 0.3897195996564661)]","{'orders', 'shipping'}"
+folder:3,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:3,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_cpu,10,[],set()
+folder:3,shipping,service_cpu,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:3,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_memory,2,"[('front-end', 0.40019089001308417), ('user', 0.2579862901232145)]","{'orders', 'user', 'catalogue'}"
+folder:3,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_memory,3,"[('front-end', 0.3564657392173768), ('orders', 0.23438166380679903), ('payment', 0.19788647695717984)]","{'orders', 'user', 'payment', 'catalogue'}"
+folder:3,shipping,service_memory,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:4,front-end,svc_latency,1,"[('front-end', 0.3053182411546197)]","{'orders', 'catalogue', 'front-end', 'user', 'carts'}"
+folder:4,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:4,orders,svc_latency,1,"[('orders', 0.3261814228278323)]","{'orders', 'shipping', 'payment', 'user', 'carts'}"
+folder:4,user,svc_latency,1,"[('user', 0.39035807866055017)]","{'orders', 'user'}"
+folder:4,carts,svc_latency,1,"[('carts', 0.43818819031860945)]","{'orders', 'carts'}"
+folder:4,payment,svc_latency,1,"[('payment', 0.3594664261404203)]","{'orders', 'payment'}"
+folder:4,shipping,svc_latency,1,"[('shipping', 0.3757602644658643)]","{'orders', 'shipping'}"
+folder:4,catalogue,service_cpu,2,"[('front-end', 0.4594613643153909), ('catalogue', 0.4305341050051167)]","{'orders', 'catalogue'}"
+folder:4,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:4,carts,service_cpu,1,"[('carts', 0.371671276665688)]","{'carts', 'catalogue'}"
+folder:4,payment,service_cpu,7,"[('front-end', 0.4253390645051841), ('catalogue', 0.28808019065914997), ('orders', 0.14697359978277447), ('user', 0.13960714505289157), ('shipping', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'user', 'catalogue'}"
+folder:4,shipping,service_cpu,4,"[('front-end', 0.299619976587982), ('orders', 0.20856767881449992), ('carts', 0.13664434017204366), ('shipping', 0.10049308987577088)]","{'orders', 'shipping', 'front-end', 'carts'}"
+folder:4,catalogue,service_memory,2,"[('front-end', 0.44121551125215835), ('catalogue', 0.40434018529564475)]","{'orders', 'carts', 'catalogue'}"
+folder:4,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_memory,2,"[('front-end', 0.4063975613909172), ('user', 0.23097319490014082)]","{'orders', 'user', 'catalogue'}"
+folder:4,carts,service_memory,1,"[('carts', 0.3287190191662041)]","{'payment', 'carts'}"
+folder:4,payment,service_memory,6,"[('front-end', 0.4009180405710077), ('catalogue', 0.21291742883975068), ('orders', 0.14647899835172912), ('user', 0.14407541948194003), ('carts', 0.09561011275557253), ('payment', 0.0)]","{'orders', 'user', 'carts', 'catalogue'}"
+folder:4,shipping,service_memory,3,"[('front-end', 0.34999824014859293), ('orders', 0.23890365173485176), ('shipping', 0.1617158408560066)]","{'orders', 'catalogue', 'shipping', 'user', 'carts'}"
+folder:5,front-end,svc_latency,1,"[('front-end', 0.30144121359949155)]","{'orders', 'catalogue', 'payment', 'front-end', 'user', 'carts'}"
+folder:5,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,svc_latency,1,"[('orders', 0.35400668226330156)]","{'orders', 'shipping', 'payment', 'user', 'carts'}"
+folder:5,user,svc_latency,1,"[('user', 0.43673816018452777)]","{'orders', 'user'}"
+folder:5,carts,svc_latency,2,"[('front-end', 0.3065459844303672), ('carts', 0.2564274332672696)]","{'orders', 'front-end', 'carts'}"
+folder:5,payment,svc_latency,3,"[('orders', 0.37090584117269854), ('front-end', 0.3152720530910478), ('payment', 0.3138221057362538)]","{'orders', 'payment'}"
+folder:5,shipping,svc_latency,4,"[('front-end', 0.3522320975767339), ('orders', 0.2882116686902977), ('carts', 0.27370122313097917), ('shipping', 0.08585501060198891)]","{'orders', 'shipping', 'carts'}"
+folder:5,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:5,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:5,carts,service_cpu,1,"[('carts', 0.3851445024640242)]","{'orders', 'carts'}"
+folder:5,payment,service_cpu,6,"[('front-end', 0.32832842278703733), ('catalogue', 0.19149996730186397), ('orders', 0.11110478389626642), ('user', 0.06085363525811657), ('carts', 0.029131587824445734), ('payment', 0.0)]","{'orders', 'catalogue', 'front-end', 'user', 'carts'}"
+folder:5,shipping,service_cpu,3,"[('front-end', 0.2714351013314501), ('orders', 0.19197704464294932), ('shipping', 0.1525067772799274)]","{'orders', 'catalogue', 'shipping', 'front-end', 'user', 'carts'}"
+folder:5,catalogue,service_memory,2,"[('front-end', 0.3160224042573746), ('catalogue', 0.2046392643056152)]","{'orders', 'catalogue', 'front-end', 'user', 'carts'}"
+folder:5,orders,service_memory,2,"[('front-end', 0.3140247223863658), ('orders', 0.13194820175395675)]","{'orders', 'catalogue', 'front-end', 'user', 'carts'}"
+folder:5,user,service_memory,5,"[('front-end', 0.31694611559608754), ('orders', 0.13065618215045788), ('catalogue', 0.11485566336707359), ('carts', 0.10178568293637082), ('user', 0.06635031813074216)]","{'orders', 'catalogue', 'front-end', 'user', 'carts'}"
+folder:5,carts,service_memory,2,"[('front-end', 0.31162777339580616), ('carts', 0.2150211187190198)]","{'orders', 'front-end', 'carts', 'user'}"
+folder:5,payment,service_memory,3,"[('front-end', 0.2703527435216209), ('orders', 0.17632139000656172), ('payment', 0.13792332690077633)]","{'orders', 'catalogue', 'payment', 'front-end', 'user', 'carts'}"
+folder:5,shipping,service_memory,4,"[('front-end', 0.29454381949116026), ('orders', 0.16783188908725383), ('user', 0.1113357278987296), ('shipping', 0.07291148767133565)]","{'orders', 'catalogue', 'shipping', 'front-end', 'user', 'carts'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'front-end', 'carts', 'shipping', 'catalogue', 'user', 'orders'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'carts', 'shipping', 'user', 'orders', 'payment'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'shipping', 'catalogue'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.29716706583461183), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'front-end', 'carts', 'shipping', 'catalogue', 'user', 'orders'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.33283225953946216), ('orders', 0.24438772808249845), ('payment', 0.13632246386776814)]","{'carts', 'shipping', 'catalogue', 'user', 'orders', 'payment'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.1735153146298822), ('shipping', 0.08758600792502358)]","{'front-end', 'carts', 'shipping', 'catalogue', 'user', 'orders', 'payment'}"
+folder:2,front-end,svc_latency,1,"[('front-end', 0.27654000012432406)]","{'front-end', 'carts', 'shipping', 'catalogue', 'user', 'orders'}"
+folder:2,catalogue,svc_latency,2,"[('front-end', 0.36951564266151093), ('catalogue', 0.23530530777710015)]","{'orders', 'catalogue', 'front-end'}"
+folder:2,orders,svc_latency,1,"[('orders', 0.4050890289989422)]","{'carts', 'shipping', 'user', 'orders', 'payment'}"
+folder:2,user,svc_latency,3,"[('front-end', 0.3026310969182622), ('orders', 0.15730030737375778), ('user', 0.1429107348649501)]","{'front-end', 'carts', 'shipping', 'catalogue', 'user', 'orders'}"
+folder:2,carts,svc_latency,2,"[('front-end', 0.3875747973915544), ('carts', 0.31291057618548607)]","{'carts', 'orders'}"
+folder:2,payment,svc_latency,1,"[('payment', 0.3556145343038235)]","{'orders', 'payment'}"
+folder:2,shipping,svc_latency,1,"[('shipping', 0.36147629746056714)]","{'shipping', 'orders'}"
+folder:2,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:2,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:2,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:2,payment,service_cpu,7,"[('front-end', 0.37140753809356686), ('orders', 0.1918727981234734), ('carts', 0.16149013418588604), ('catalogue', 0.12380568842596851), ('user', 0.08104765074285433), ('shipping', 0.0703761904282507), ('payment', 0.0)]","{'carts', 'shipping', 'catalogue', 'user', 'orders'}"
+folder:2,shipping,service_cpu,3,"[('front-end', 0.28580340006075), ('orders', 0.16552883327181972), ('shipping', 0.11402577850825152)]","{'front-end', 'carts', 'shipping', 'catalogue', 'user', 'orders'}"
+folder:2,catalogue,service_memory,2,"[('front-end', 0.30159435433154963), ('catalogue', 0.16069054707635297)]","{'front-end', 'catalogue', 'user', 'orders', 'payment'}"
+folder:2,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_memory,2,"[('front-end', 0.3128650266631487), ('user', 0.2955785145702726)]","{'front-end', 'user'}"
+folder:2,carts,service_memory,1,"[('carts', 0.5405396329646597)]",{'carts'}
+folder:2,payment,service_memory,4,"[('front-end', 0.27522635229385745), ('orders', 0.16183870182949647), ('catalogue', 0.11436064559193165), ('payment', 0.10152915085143946)]","{'front-end', 'carts', 'shipping', 'catalogue', 'user', 'orders', 'payment'}"
+folder:2,shipping,service_memory,4,"[('front-end', 0.30087848052135635), ('orders', 0.14563901353442366), ('catalogue', 0.12473121969405432), ('shipping', 0.10367518357361295)]","{'front-end', 'carts', 'shipping', 'catalogue', 'user', 'orders'}"
+folder:3,front-end,svc_latency,1,"[('front-end', 0.30101270555591686)]","{'front-end', 'carts', 'catalogue', 'user', 'orders'}"
+folder:3,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,svc_latency,1,"[('orders', 0.35773737847198417)]","{'carts', 'shipping', 'user', 'orders', 'payment'}"
+folder:3,user,svc_latency,1,"[('user', 0.4516958222908872)]","{'orders', 'user'}"
+folder:3,carts,svc_latency,1,"[('carts', 0.42228369246441755)]","{'carts', 'orders'}"
+folder:3,payment,svc_latency,1,"[('payment', 0.37827045905281875)]","{'orders', 'payment'}"
+folder:3,shipping,svc_latency,1,"[('shipping', 0.3897195996564661)]","{'shipping', 'orders'}"
+folder:3,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:3,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_cpu,10,[],set()
+folder:3,shipping,service_cpu,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:3,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_memory,2,"[('front-end', 0.40019089001308417), ('user', 0.2579862901232145)]","{'orders', 'catalogue', 'user'}"
+folder:3,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_memory,3,"[('front-end', 0.3564657392173768), ('orders', 0.23438166380679903), ('payment', 0.19788647695717984)]","{'orders', 'catalogue', 'payment', 'user'}"
+folder:3,shipping,service_memory,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:4,front-end,svc_latency,1,"[('front-end', 0.3053182411546196)]","{'front-end', 'carts', 'catalogue', 'user', 'orders'}"
+folder:4,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:4,orders,svc_latency,1,"[('orders', 0.32618142282783236)]","{'carts', 'shipping', 'user', 'orders', 'payment'}"
+folder:4,user,svc_latency,1,"[('user', 0.39035807866055017)]","{'orders', 'user'}"
+folder:4,carts,svc_latency,1,"[('carts', 0.43818819031860956)]","{'carts', 'orders'}"
+folder:4,payment,svc_latency,1,"[('payment', 0.3594664261404203)]","{'orders', 'payment'}"
+folder:4,shipping,svc_latency,1,"[('shipping', 0.3757602644658643)]","{'shipping', 'orders'}"
+folder:4,catalogue,service_cpu,2,"[('front-end', 0.4594613643153909), ('catalogue', 0.4305341050051167)]","{'orders', 'catalogue'}"
+folder:4,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:4,carts,service_cpu,1,"[('carts', 0.371671276665688)]","{'carts', 'catalogue'}"
+folder:4,payment,service_cpu,7,"[('front-end', 0.4253390645051841), ('catalogue', 0.28808019065914997), ('orders', 0.14697359978277447), ('user', 0.13960714505289157), ('shipping', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'catalogue', 'user'}"
+folder:4,shipping,service_cpu,4,"[('front-end', 0.297374322382605), ('orders', 0.21152028869831865), ('carts', 0.1417558522901923), ('shipping', 0.09658362045841482)]","{'front-end', 'carts', 'shipping', 'orders'}"
+folder:4,catalogue,service_memory,2,"[('front-end', 0.44121551125215835), ('catalogue', 0.40434018529564475)]","{'orders', 'carts', 'catalogue'}"
+folder:4,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_memory,2,"[('front-end', 0.4063975613909172), ('user', 0.23097319490014082)]","{'orders', 'catalogue', 'user'}"
+folder:4,carts,service_memory,1,"[('carts', 0.3287190191662041)]","{'carts', 'payment'}"
+folder:4,payment,service_memory,6,"[('front-end', 0.4009180405710077), ('catalogue', 0.21291742883975068), ('orders', 0.14647899835172912), ('user', 0.14407541948194003), ('carts', 0.09561011275557253), ('payment', 0.0)]","{'orders', 'carts', 'catalogue', 'user'}"
+folder:4,shipping,service_memory,3,"[('front-end', 0.34998837091901697), ('orders', 0.2389505679615948), ('shipping', 0.16166107813707)]","{'carts', 'shipping', 'catalogue', 'user', 'orders'}"
+folder:5,front-end,svc_latency,1,"[('front-end', 0.3014412135994916)]","{'front-end', 'carts', 'catalogue', 'user', 'orders', 'payment'}"
+folder:5,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,svc_latency,1,"[('orders', 0.35400668226330156)]","{'carts', 'shipping', 'user', 'orders', 'payment'}"
+folder:5,user,svc_latency,1,"[('user', 0.43673816018452777)]","{'orders', 'user'}"
+folder:5,carts,svc_latency,2,"[('front-end', 0.3065459844303672), ('carts', 0.2564274332672696)]","{'front-end', 'carts', 'orders'}"
+folder:5,payment,svc_latency,3,"[('orders', 0.37090584117269854), ('front-end', 0.3152720530910478), ('payment', 0.3138221057362538)]","{'orders', 'payment'}"
+folder:5,shipping,svc_latency,4,"[('front-end', 0.39652840008101736), ('orders', 0.22288487242044586), ('carts', 0.21482754881162647), ('shipping', 0.1657591786869103)]","{'carts', 'shipping', 'orders'}"
+folder:5,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:5,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:5,carts,service_cpu,1,"[('carts', 0.3851445024640242)]","{'carts', 'orders'}"
+folder:5,payment,service_cpu,6,"[('front-end', 0.3283284227870374), ('catalogue', 0.19149996730186403), ('orders', 0.11110478389626643), ('user', 0.06085363525811659), ('carts', 0.029131587824445738), ('payment', 0.0)]","{'front-end', 'carts', 'catalogue', 'user', 'orders'}"
+folder:5,shipping,service_cpu,3,"[('front-end', 0.2714351013314501), ('orders', 0.19197704464294932), ('shipping', 0.1525067772799274)]","{'front-end', 'carts', 'shipping', 'catalogue', 'user', 'orders'}"
+folder:5,catalogue,service_memory,2,"[('front-end', 0.3160224042573746), ('catalogue', 0.20463926430561516)]","{'front-end', 'carts', 'catalogue', 'user', 'orders'}"
+folder:5,orders,service_memory,4,"[('front-end', 0.33508939419026573), ('catalogue', 0.11677228452891916), ('carts', 0.10410904165157783), ('orders', 0.08960496927376674)]","{'front-end', 'carts', 'catalogue', 'user', 'orders'}"
+folder:5,user,service_memory,5,"[('front-end', 0.31694611559608754), ('orders', 0.13065618215045788), ('catalogue', 0.11485566336707359), ('carts', 0.10178568293637082), ('user', 0.06635031813074216)]","{'front-end', 'carts', 'catalogue', 'user', 'orders'}"
+folder:5,carts,service_memory,2,"[('front-end', 0.31162777339580605), ('carts', 0.21502111871901974)]","{'front-end', 'carts', 'orders', 'user'}"
+folder:5,payment,service_memory,3,"[('front-end', 0.27035274352162086), ('orders', 0.17632139000656166), ('payment', 0.13792332690077633)]","{'front-end', 'carts', 'catalogue', 'user', 'orders', 'payment'}"
+folder:5,shipping,service_memory,4,"[('front-end', 0.2945438194911602), ('orders', 0.16783188908725383), ('user', 0.1113357278987296), ('shipping', 0.07291148767133565)]","{'front-end', 'carts', 'shipping', 'catalogue', 'user', 'orders'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'orders', 'catalogue', 'carts', 'shipping', 'front-end', 'user'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'orders', 'payment', 'carts', 'shipping', 'user'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'catalogue', 'shipping', 'orders'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795625), ('shipping', 0.10711800087710233)]","{'orders', 'catalogue', 'carts', 'shipping', 'front-end', 'user'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.24256222702013486), ('payment', 0.13895370191146994)]","{'orders', 'catalogue', 'carts', 'payment', 'shipping', 'user'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'orders', 'catalogue', 'carts', 'payment', 'shipping', 'front-end', 'user'}"
+folder:2,front-end,svc_latency,1,"[('front-end', 0.27654000012432406)]","{'orders', 'catalogue', 'carts', 'shipping', 'front-end', 'user'}"
+folder:2,catalogue,svc_latency,2,"[('front-end', 0.369515642661511), ('catalogue', 0.23530530777710018)]","{'catalogue', 'front-end', 'orders'}"
+folder:2,orders,svc_latency,1,"[('orders', 0.40508902899894217)]","{'orders', 'payment', 'carts', 'shipping', 'user'}"
+folder:2,user,svc_latency,3,"[('front-end', 0.3026310969182623), ('orders', 0.15730030737375783), ('user', 0.1429107348649501)]","{'orders', 'catalogue', 'carts', 'shipping', 'front-end', 'user'}"
+folder:2,carts,svc_latency,2,"[('front-end', 0.3875747973915544), ('carts', 0.31291057618548607)]","{'carts', 'orders'}"
+folder:2,payment,svc_latency,1,"[('payment', 0.3556145343038235)]","{'payment', 'orders'}"
+folder:2,shipping,svc_latency,1,"[('shipping', 0.36147629746056714)]","{'shipping', 'orders'}"
+folder:2,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:2,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'front-end', 'carts', 'user', 'catalogue', 'orders', 'shipping'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'payment', 'carts', 'user', 'orders', 'shipping'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'catalogue', 'shipping'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.29716706583461183), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'front-end', 'carts', 'user', 'catalogue', 'orders', 'shipping'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.33283225953946216), ('orders', 0.24438772808249845), ('payment', 0.13632246386776814)]","{'payment', 'carts', 'user', 'catalogue', 'orders', 'shipping'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.2834913023706481), ('orders', 0.1735153146298822), ('shipping', 0.08758600792502358)]","{'front-end', 'payment', 'carts', 'user', 'catalogue', 'orders', 'shipping'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.2799764913752436)]","{'user', 'carts', 'orders', 'front-end', 'catalogue', 'shipping'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'user', 'carts', 'orders', 'payment', 'shipping'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'catalogue', 'orders', 'shipping'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.29716706583461183), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'user', 'carts', 'orders', 'front-end', 'catalogue', 'shipping'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.33283225953946216), ('orders', 0.24438772808249842), ('payment', 0.13632246386776814)]","{'user', 'carts', 'orders', 'payment', 'catalogue', 'shipping'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.2834913023706481), ('orders', 0.1735153146298822), ('shipping', 0.08758600792502358)]","{'user', 'carts', 'orders', 'payment', 'front-end', 'catalogue', 'shipping'}"
+folder:1,front-end,svc_latency,2,"[('shipping', 0.2553042864950743), ('front-end', 0.24179035656545672)]","{'orders', 'shipping', 'catalogue', 'front-end', 'user', 'carts'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.010050251670170407)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.3407267532327375)]","{'orders', 'shipping', 'payment', 'user', 'carts'}"
+folder:1,user,svc_latency,4,"[('shipping', 0.37150060557166575), ('orders', 0.3258553869127848), ('front-end', 0.2846310351792151), ('user', 0.01801297233633433)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,4,"[('shipping', 0.36583157173476266), ('orders', 0.3222648757921054), ('front-end', 0.28525090616438065), ('carts', 0.026652646308751016)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,4,"[('shipping', 0.35287778236563616), ('orders', 0.3311945433622899), ('front-end', 0.2815177687282956), ('payment', 0.03440990554377827)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.3870136719638495)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.009481109264825805)]",{'catalogue'}
+folder:1,orders,service_cpu,2,"[('shipping', 0.3877234320187133), ('orders', 0.3309617975962308)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.005906405687801828)]",{'user'}
+folder:1,carts,service_cpu,4,"[('shipping', 0.37035519920054094), ('orders', 0.32732615769953494), ('front-end', 0.2854144242608957), ('carts', 0.016904218839028422)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('shipping', 0.37828978756613013), ('orders', 0.3262434641981187), ('front-end', 0.2856494431945378), ('catalogue', 0.00981730504121359), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'shipping', 'orders', 'catalogue'}"
+folder:1,shipping,service_cpu,1,"[('shipping', 0.27884142386582755)]","{'orders', 'shipping', 'catalogue', 'front-end', 'user', 'carts'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.014645937436729027)]",{'catalogue'}
+folder:1,orders,service_memory,2,"[('shipping', 0.38454500068467656), ('orders', 0.33267677974224336)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.008458343093666514)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.0035654202381214905)]",{'carts'}
+folder:1,payment,service_memory,4,"[('shipping', 0.31841428939596167), ('orders', 0.3114002756461109), ('front-end', 0.29229469875758957), ('payment', 0.03008199468668853)]","{'orders', 'shipping', 'payment', 'catalogue', 'user', 'carts'}"
+folder:1,shipping,service_memory,1,"[('shipping', 0.2601445824947259)]","{'orders', 'shipping', 'payment', 'catalogue', 'front-end', 'user', 'carts'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'orders', 'catalogue', 'user', 'shipping', 'carts', 'front-end'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'payment', 'orders', 'user', 'shipping', 'carts'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'shipping', 'orders', 'catalogue'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795625), ('shipping', 0.10711800087710233)]","{'orders', 'catalogue', 'user', 'shipping', 'carts', 'front-end'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.24256222702013486), ('payment', 0.13895370191146994)]","{'payment', 'orders', 'catalogue', 'user', 'shipping', 'carts'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'payment', 'orders', 'catalogue', 'user', 'shipping', 'carts', 'front-end'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'carts', 'front-end', 'orders', 'shipping', 'catalogue', 'user'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'payment', 'carts', 'orders', 'shipping', 'user'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'shipping', 'catalogue'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'carts', 'front-end', 'orders', 'shipping', 'catalogue', 'user'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.24256222702013486), ('payment', 0.13895370191146994)]","{'carts', 'payment', 'orders', 'shipping', 'catalogue', 'user'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.1735153146298822), ('shipping', 0.08758600792502358)]","{'payment', 'carts', 'front-end', 'orders', 'shipping', 'catalogue', 'user'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.2799764913752436)]","{'user', 'shipping', 'orders', 'front-end', 'carts', 'catalogue'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'user', 'shipping', 'orders', 'payment', 'carts'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'catalogue', 'orders', 'shipping'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346118), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710235)]","{'user', 'shipping', 'orders', 'front-end', 'carts', 'catalogue'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.33283225953946216), ('orders', 0.24438772808249845), ('payment', 0.13632246386776814)]","{'user', 'shipping', 'orders', 'payment', 'carts', 'catalogue'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'user', 'shipping', 'orders', 'payment', 'front-end', 'carts', 'catalogue'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'catalogue', 'shipping', 'front-end', 'user', 'carts', 'orders'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'shipping', 'user', 'carts', 'orders', 'payment'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'catalogue', 'shipping', 'orders'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346118), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'catalogue', 'shipping', 'front-end', 'user', 'carts', 'orders'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.33283225953946216), ('orders', 0.24438772808249845), ('payment', 0.13632246386776814)]","{'catalogue', 'shipping', 'user', 'carts', 'orders', 'payment'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'catalogue', 'shipping', 'front-end', 'user', 'carts', 'orders', 'payment'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.2799764913752436)]","{'user', 'shipping', 'carts', 'orders', 'catalogue', 'front-end'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'user', 'shipping', 'carts', 'orders', 'payment'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'shipping', 'catalogue', 'orders'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346118), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710235)]","{'user', 'shipping', 'carts', 'orders', 'catalogue', 'front-end'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.33283225953946216), ('orders', 0.24438772808249845), ('payment', 0.13632246386776814)]","{'user', 'shipping', 'carts', 'orders', 'catalogue', 'payment'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'user', 'shipping', 'carts', 'orders', 'catalogue', 'payment', 'front-end'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.2799764913752437)]","{'user', 'catalogue', 'front-end', 'orders', 'shipping', 'carts'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'user', 'payment', 'orders', 'shipping', 'carts'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'catalogue', 'orders', 'shipping'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.29716706583461183), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'user', 'catalogue', 'front-end', 'orders', 'shipping', 'carts'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.33283225953946216), ('orders', 0.24438772808249848), ('payment', 0.13632246386776814)]","{'user', 'payment', 'catalogue', 'orders', 'shipping', 'carts'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'user', 'payment', 'catalogue', 'front-end', 'orders', 'shipping', 'carts'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'orders', 'shipping', 'front-end', 'user', 'catalogue', 'carts'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'orders', 'shipping', 'payment', 'user', 'carts'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'shipping', 'catalogue'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795625), ('shipping', 0.10711800087710233)]","{'orders', 'shipping', 'front-end', 'user', 'catalogue', 'carts'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.24256222702013486), ('payment', 0.13895370191146994)]","{'orders', 'shipping', 'payment', 'user', 'catalogue', 'carts'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'orders', 'shipping', 'front-end', 'payment', 'user', 'catalogue', 'carts'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'orders', 'catalogue', 'carts', 'front-end', 'user', 'shipping'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'orders', 'payment', 'carts', 'user', 'shipping'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'shipping', 'catalogue', 'orders'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795625), ('shipping', 0.10711800087710233)]","{'orders', 'catalogue', 'carts', 'front-end', 'user', 'shipping'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.33283225953946216), ('orders', 0.24438772808249845), ('payment', 0.13632246386776814)]","{'payment', 'catalogue', 'shipping', 'carts', 'user', 'orders'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'payment', 'catalogue', 'shipping', 'carts', 'front-end', 'user', 'orders'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'shipping', 'catalogue', 'orders', 'user', 'carts', 'front-end'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'shipping', 'orders', 'user', 'carts', 'payment'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'shipping', 'orders', 'catalogue'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346118), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'shipping', 'catalogue', 'orders', 'user', 'carts', 'front-end'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.2425622270201349), ('payment', 0.13895370191146997)]","{'shipping', 'catalogue', 'orders', 'user', 'carts', 'payment'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'shipping', 'catalogue', 'orders', 'user', 'carts', 'front-end', 'payment'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'catalogue', 'shipping', 'front-end', 'user', 'orders', 'carts'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'shipping', 'user', 'orders', 'payment', 'carts'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'catalogue', 'shipping', 'orders'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346118), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'catalogue', 'shipping', 'front-end', 'user', 'orders', 'carts'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3328322595394622), ('orders', 0.24438772808249848), ('payment', 0.13632246386776814)]","{'catalogue', 'shipping', 'user', 'orders', 'payment', 'carts'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'catalogue', 'shipping', 'front-end', 'user', 'orders', 'payment', 'carts'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'shipping', 'carts', 'catalogue', 'front-end', 'user', 'orders'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'shipping', 'carts', 'user', 'orders', 'payment'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'catalogue', 'shipping'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'shipping', 'carts', 'catalogue', 'front-end', 'user', 'orders'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.33283225953946216), ('orders', 0.24438772808249845), ('payment', 0.13632246386776814)]","{'shipping', 'carts', 'catalogue', 'user', 'orders', 'payment'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'shipping', 'carts', 'catalogue', 'front-end', 'user', 'orders', 'payment'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'shipping', 'catalogue', 'front-end', 'orders', 'user', 'carts'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'shipping', 'orders', 'payment', 'user', 'carts'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'catalogue', 'shipping', 'orders'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346118), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'shipping', 'catalogue', 'front-end', 'orders', 'user', 'carts'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.2425622270201349), ('payment', 0.13895370191146997)]","{'shipping', 'catalogue', 'orders', 'payment', 'user', 'carts'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'shipping', 'catalogue', 'front-end', 'orders', 'payment', 'user', 'carts'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'orders', 'user', 'shipping', 'front-end', 'carts', 'catalogue'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'orders', 'user', 'shipping', 'carts', 'payment'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'shipping', 'catalogue', 'orders'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795625), ('shipping', 0.10711800087710233)]","{'orders', 'user', 'shipping', 'front-end', 'carts', 'catalogue'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.24256222702013486), ('payment', 0.13895370191146994)]","{'orders', 'user', 'shipping', 'carts', 'catalogue', 'payment'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'orders', 'user', 'shipping', 'front-end', 'carts', 'catalogue', 'payment'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'shipping', 'orders', 'catalogue', 'carts', 'front-end', 'user'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.3832655514989451)]","{'shipping', 'payment', 'orders', 'carts', 'user'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'shipping', 'orders', 'catalogue'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795625), ('shipping', 0.10711800087710233)]","{'shipping', 'orders', 'catalogue', 'carts', 'front-end', 'user'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.24256222702013486), ('payment', 0.13895370191146994)]","{'shipping', 'payment', 'orders', 'carts', 'catalogue', 'user'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'shipping', 'payment', 'orders', 'catalogue', 'carts', 'front-end', 'user'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.2799764913752436)]","{'shipping', 'catalogue', 'carts', 'front-end', 'user', 'orders'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.3832655514989451)]","{'payment', 'shipping', 'carts', 'user', 'orders'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'shipping', 'catalogue', 'orders'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795625), ('shipping', 0.10711800087710233)]","{'shipping', 'catalogue', 'carts', 'front-end', 'user', 'orders'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.33283225953946216), ('orders', 0.24438772808249845), ('payment', 0.13632246386776814)]","{'payment', 'shipping', 'catalogue', 'carts', 'user', 'orders'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'payment', 'shipping', 'catalogue', 'carts', 'front-end', 'user', 'orders'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'catalogue', 'shipping', 'user', 'carts', 'front-end', 'orders'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'shipping', 'user', 'carts', 'orders', 'payment'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'shipping', 'catalogue', 'orders'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346118), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'catalogue', 'shipping', 'user', 'carts', 'front-end', 'orders'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.33283225953946216), ('orders', 0.24438772808249845), ('payment', 0.13632246386776814)]","{'catalogue', 'user', 'shipping', 'carts', 'orders', 'payment'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'catalogue', 'user', 'shipping', 'carts', 'front-end', 'orders', 'payment'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'orders', 'user', 'carts', 'catalogue', 'shipping', 'front-end'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'orders', 'user', 'carts', 'payment', 'shipping'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'shipping', 'orders', 'catalogue'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795625), ('shipping', 0.10711800087710233)]","{'orders', 'user', 'carts', 'catalogue', 'shipping', 'front-end'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.24256222702013486), ('payment', 0.13895370191146994)]","{'orders', 'carts', 'user', 'catalogue', 'payment', 'shipping'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'orders', 'user', 'carts', 'catalogue', 'payment', 'shipping', 'front-end'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'catalogue', 'orders', 'front-end', 'user', 'shipping', 'carts'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'orders', 'user', 'shipping', 'carts', 'payment'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'catalogue', 'shipping', 'orders'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346118), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'catalogue', 'orders', 'front-end', 'user', 'shipping', 'carts'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.2425622270201349), ('payment', 0.13895370191146997)]","{'catalogue', 'orders', 'user', 'shipping', 'carts', 'payment'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502359)]","{'catalogue', 'orders', 'front-end', 'user', 'shipping', 'carts', 'payment'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'shipping', 'carts', 'front-end', 'user', 'catalogue', 'orders'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.3832655514989451)]","{'payment', 'shipping', 'carts', 'user', 'orders'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'shipping', 'catalogue', 'orders'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346118), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'shipping', 'carts', 'front-end', 'user', 'catalogue', 'orders'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.33283225953946216), ('orders', 0.24438772808249845), ('payment', 0.13632246386776814)]","{'payment', 'shipping', 'carts', 'user', 'catalogue', 'orders'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'payment', 'shipping', 'carts', 'front-end', 'user', 'catalogue', 'orders'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'carts', 'shipping', 'orders', 'catalogue', 'front-end', 'user'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'carts', 'shipping', 'payment', 'orders', 'user'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'catalogue', 'shipping', 'orders'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'carts', 'shipping', 'orders', 'catalogue', 'front-end', 'user'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.24256222702013486), ('payment', 0.13895370191146994)]","{'carts', 'payment', 'shipping', 'orders', 'catalogue', 'user'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'carts', 'payment', 'shipping', 'orders', 'catalogue', 'front-end', 'user'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.2799764913752437)]","{'user', 'catalogue', 'orders', 'carts', 'front-end', 'shipping'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'user', 'orders', 'carts', 'payment', 'shipping'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'catalogue', 'orders', 'shipping'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346118), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'user', 'catalogue', 'orders', 'carts', 'front-end', 'shipping'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.33283225953946216), ('orders', 0.24438772808249848), ('payment', 0.13632246386776814)]","{'user', 'catalogue', 'orders', 'carts', 'payment', 'shipping'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'user', 'catalogue', 'orders', 'carts', 'front-end', 'payment', 'shipping'}"
+folder:2,front-end,svc_latency,1,"[('front-end', 0.27654000012432406)]","{'user', 'catalogue', 'orders', 'carts', 'front-end', 'shipping'}"
+folder:2,catalogue,svc_latency,2,"[('front-end', 0.369515642661511), ('catalogue', 0.23530530777710018)]","{'catalogue', 'orders', 'front-end'}"
+folder:2,orders,svc_latency,1,"[('orders', 0.40508902899894217)]","{'user', 'orders', 'carts', 'payment', 'shipping'}"
+folder:2,user,svc_latency,3,"[('front-end', 0.3026310969182622), ('orders', 0.15730030737375778), ('user', 0.1429107348649501)]","{'user', 'catalogue', 'orders', 'carts', 'front-end', 'shipping'}"
+folder:2,carts,svc_latency,2,"[('front-end', 0.3875747973915544), ('carts', 0.31291057618548607)]","{'orders', 'carts'}"
+folder:2,payment,svc_latency,1,"[('payment', 0.3556145343038235)]","{'payment', 'orders'}"
+folder:2,shipping,svc_latency,1,"[('shipping', 0.36147629746056714)]","{'shipping', 'orders'}"
+folder:2,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:2,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:2,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:2,payment,service_cpu,7,"[('front-end', 0.37140753809356686), ('orders', 0.19187279812347335), ('carts', 0.16149013418588604), ('catalogue', 0.12380568842596848), ('user', 0.08104765074285433), ('shipping', 0.07037619042825069), ('payment', 0.0)]","{'user', 'catalogue', 'orders', 'carts', 'shipping'}"
+folder:2,shipping,service_cpu,3,"[('front-end', 0.28580340006075), ('orders', 0.16552883327181972), ('shipping', 0.11402577850825152)]","{'user', 'catalogue', 'orders', 'carts', 'front-end', 'shipping'}"
+folder:2,catalogue,service_memory,2,"[('front-end', 0.30159435433154963), ('catalogue', 0.16069054707635297)]","{'user', 'catalogue', 'orders', 'front-end', 'payment'}"
+folder:2,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_memory,2,"[('front-end', 0.3128650266631487), ('user', 0.2955785145702726)]","{'user', 'front-end'}"
+folder:2,carts,service_memory,1,"[('carts', 0.5405396329646597)]",{'carts'}
+folder:2,payment,service_memory,4,"[('front-end', 0.27522635229385745), ('orders', 0.16183870182949645), ('catalogue', 0.11436064559193165), ('payment', 0.10152915085143946)]","{'user', 'catalogue', 'orders', 'carts', 'front-end', 'payment', 'shipping'}"
+folder:2,shipping,service_memory,4,"[('front-end', 0.30087848052135635), ('orders', 0.14563901353442366), ('catalogue', 0.12473121969405432), ('shipping', 0.10367518357361295)]","{'user', 'catalogue', 'orders', 'carts', 'front-end', 'shipping'}"
+folder:3,front-end,svc_latency,1,"[('front-end', 0.30101270555591686)]","{'user', 'catalogue', 'orders', 'carts', 'front-end'}"
+folder:3,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,svc_latency,1,"[('orders', 0.35773737847198417)]","{'user', 'orders', 'carts', 'payment', 'shipping'}"
+folder:3,user,svc_latency,1,"[('user', 0.4516958222908872)]","{'user', 'orders'}"
+folder:3,carts,svc_latency,1,"[('carts', 0.42228369246441766)]","{'orders', 'carts'}"
+folder:3,payment,svc_latency,1,"[('payment', 0.37827045905281875)]","{'payment', 'orders'}"
+folder:3,shipping,svc_latency,1,"[('shipping', 0.3897195996564661)]","{'shipping', 'orders'}"
+folder:3,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:3,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_cpu,10,[],set()
+folder:3,shipping,service_cpu,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:3,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_memory,2,"[('front-end', 0.40019089001308417), ('user', 0.2579862901232145)]","{'user', 'catalogue', 'orders'}"
+folder:3,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_memory,3,"[('front-end', 0.35553311675764987), ('orders', 0.23766360175950743), ('payment', 0.19320253006893634)]","{'payment', 'user', 'catalogue', 'orders'}"
+folder:3,shipping,service_memory,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:4,front-end,svc_latency,1,"[('front-end', 0.3053182411546196)]","{'user', 'catalogue', 'orders', 'carts', 'front-end'}"
+folder:4,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:4,orders,svc_latency,1,"[('orders', 0.32618142282783236)]","{'user', 'orders', 'carts', 'payment', 'shipping'}"
+folder:4,user,svc_latency,1,"[('user', 0.39035807866055017)]","{'user', 'orders'}"
+folder:4,carts,svc_latency,1,"[('carts', 0.43818819031860945)]","{'orders', 'carts'}"
+folder:4,payment,svc_latency,1,"[('payment', 0.35946642614042035)]","{'payment', 'orders'}"
+folder:4,shipping,svc_latency,1,"[('shipping', 0.3757602644658643)]","{'shipping', 'orders'}"
+folder:4,catalogue,service_cpu,2,"[('front-end', 0.4594613643153909), ('catalogue', 0.4305341050051167)]","{'catalogue', 'orders'}"
+folder:4,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:4,carts,service_cpu,1,"[('carts', 0.371671276665688)]","{'catalogue', 'carts'}"
+folder:4,payment,service_cpu,7,"[('front-end', 0.4201599643233612), ('catalogue', 0.27540548073351734), ('orders', 0.15643058049028646), ('user', 0.14800397445283509), ('shipping', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'user', 'catalogue', 'orders'}"
+folder:4,shipping,service_cpu,4,"[('front-end', 0.299619976587982), ('orders', 0.2085676788144999), ('carts', 0.13664434017204366), ('shipping', 0.10049308987577088)]","{'shipping', 'orders', 'carts', 'front-end'}"
+folder:4,catalogue,service_memory,2,"[('front-end', 0.44121551125215835), ('catalogue', 0.40434018529564464)]","{'catalogue', 'orders', 'carts'}"
+folder:4,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_memory,2,"[('front-end', 0.4063975613909172), ('user', 0.23097319490014082)]","{'user', 'catalogue', 'orders'}"
+folder:4,carts,service_memory,1,"[('carts', 0.3287190191662041)]","{'payment', 'carts'}"
+folder:4,payment,service_memory,6,"[('front-end', 0.4009180405710077), ('catalogue', 0.21291742883975068), ('orders', 0.14647899835172912), ('user', 0.14407541948194003), ('carts', 0.09561011275557255), ('payment', 0.0)]","{'user', 'catalogue', 'orders', 'carts'}"
+folder:4,shipping,service_memory,3,"[('front-end', 0.349988370919017), ('orders', 0.2389505679615948), ('shipping', 0.16166107813707)]","{'user', 'catalogue', 'orders', 'carts', 'shipping'}"
+folder:5,front-end,svc_latency,1,"[('front-end', 0.3014412135994915)]","{'user', 'catalogue', 'orders', 'carts', 'front-end', 'payment'}"
+folder:5,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,svc_latency,1,"[('orders', 0.35400668226330156)]","{'user', 'orders', 'carts', 'payment', 'shipping'}"
+folder:5,user,svc_latency,1,"[('user', 0.4367381601845278)]","{'user', 'orders'}"
+folder:5,carts,svc_latency,2,"[('front-end', 0.3065459844303672), ('carts', 0.2564274332672696)]","{'front-end', 'orders', 'carts'}"
+folder:5,payment,svc_latency,3,"[('orders', 0.37090584117269854), ('front-end', 0.3152720530910478), ('payment', 0.3138221057362538)]","{'payment', 'orders'}"
+folder:5,shipping,svc_latency,4,"[('front-end', 0.3522320975767339), ('orders', 0.2882116686902977), ('carts', 0.27370122313097917), ('shipping', 0.08585501060198891)]","{'shipping', 'orders', 'carts'}"
+folder:5,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:5,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:5,carts,service_cpu,1,"[('carts', 0.3851445024640242)]","{'orders', 'carts'}"
+folder:5,payment,service_cpu,6,"[('front-end', 0.32832842278703733), ('catalogue', 0.19149996730186403), ('orders', 0.11110478389626643), ('user', 0.060853635258116594), ('carts', 0.02913158782444574), ('payment', 0.0)]","{'user', 'catalogue', 'orders', 'carts', 'front-end'}"
+folder:5,shipping,service_cpu,3,"[('front-end', 0.27143510133145016), ('orders', 0.19197704464294932), ('shipping', 0.1525067772799274)]","{'user', 'catalogue', 'orders', 'carts', 'front-end', 'shipping'}"
+folder:5,catalogue,service_memory,2,"[('front-end', 0.3160224042573746), ('catalogue', 0.2046392643056152)]","{'user', 'catalogue', 'orders', 'carts', 'front-end'}"
+folder:5,orders,service_memory,3,"[('front-end', 0.3186456417665649), ('carts', 0.1338610156242434), ('orders', 0.12183453230746528)]","{'user', 'catalogue', 'orders', 'carts', 'front-end'}"
+folder:5,user,service_memory,5,"[('front-end', 0.31694611559608754), ('orders', 0.13065618215045788), ('catalogue', 0.11485566336707359), ('carts', 0.10178568293637082), ('user', 0.06635031813074216)]","{'user', 'catalogue', 'orders', 'carts', 'front-end'}"
+folder:5,carts,service_memory,2,"[('front-end', 0.30516948048633874), ('carts', 0.1954049575160759)]","{'user', 'front-end', 'orders', 'carts'}"
+folder:5,payment,service_memory,3,"[('front-end', 0.27035274352162086), ('orders', 0.17632139000656166), ('payment', 0.13792332690077633)]","{'user', 'catalogue', 'orders', 'carts', 'front-end', 'payment'}"
+folder:5,shipping,service_memory,4,"[('front-end', 0.2945438194911602), ('orders', 0.16783188908725383), ('user', 0.1113357278987296), ('shipping', 0.07291148767133565)]","{'user', 'catalogue', 'orders', 'carts', 'front-end', 'shipping'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'orders', 'front-end', 'user', 'catalogue', 'carts', 'shipping'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'orders', 'user', 'carts', 'shipping', 'payment'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'orders', 'payment'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'catalogue', 'shipping'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795625), ('shipping', 0.10711800087710233)]","{'orders', 'front-end', 'user', 'catalogue', 'carts', 'shipping'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.24256222702013486), ('payment', 0.13895370191146994)]","{'orders', 'user', 'catalogue', 'carts', 'shipping', 'payment'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'orders', 'front-end', 'user', 'catalogue', 'carts', 'shipping', 'payment'}"
+folder:2,front-end,svc_latency,1,"[('front-end', 0.27654000012432406)]","{'orders', 'front-end', 'user', 'catalogue', 'carts', 'shipping'}"
+folder:2,catalogue,svc_latency,2,"[('front-end', 0.36951564266151093), ('catalogue', 0.23530530777710015)]","{'orders', 'catalogue', 'front-end'}"
+folder:2,orders,svc_latency,1,"[('orders', 0.40508902899894217)]","{'orders', 'user', 'carts', 'shipping', 'payment'}"
+folder:2,user,svc_latency,3,"[('front-end', 0.3026310969182623), ('orders', 0.15730030737375783), ('user', 0.1429107348649501)]","{'orders', 'front-end', 'user', 'catalogue', 'carts', 'shipping'}"
+folder:2,carts,svc_latency,2,"[('front-end', 0.3875747973915544), ('carts', 0.31291057618548607)]","{'carts', 'orders'}"
+folder:2,payment,svc_latency,1,"[('payment', 0.3556145343038235)]","{'orders', 'payment'}"
+folder:2,shipping,svc_latency,1,"[('shipping', 0.36147629746056714)]","{'orders', 'shipping'}"
+folder:2,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:2,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:2,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:2,payment,service_cpu,7,"[('front-end', 0.37140753809356686), ('orders', 0.19187279812347335), ('carts', 0.16149013418588604), ('catalogue', 0.12380568842596851), ('user', 0.08104765074285433), ('shipping', 0.0703761904282507), ('payment', 0.0)]","{'orders', 'user', 'catalogue', 'carts', 'shipping'}"
+folder:2,shipping,service_cpu,3,"[('front-end', 0.28580340006075), ('orders', 0.1655288332718197), ('shipping', 0.11402577850825152)]","{'orders', 'front-end', 'user', 'catalogue', 'carts', 'shipping'}"
+folder:2,catalogue,service_memory,2,"[('front-end', 0.3022820837290954), ('catalogue', 0.16312939971127752)]","{'orders', 'front-end', 'user', 'catalogue', 'payment'}"
+folder:2,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_memory,2,"[('front-end', 0.3128650266631487), ('user', 0.2955785145702726)]","{'front-end', 'user'}"
+folder:2,carts,service_memory,1,"[('carts', 0.5405396329646597)]",{'carts'}
+folder:2,payment,service_memory,4,"[('front-end', 0.27464393156627653), ('orders', 0.16341853615059354), ('catalogue', 0.11276118140789254), ('payment', 0.10010914976992895)]","{'orders', 'front-end', 'user', 'catalogue', 'carts', 'shipping', 'payment'}"
+folder:2,shipping,service_memory,4,"[('front-end', 0.3008784805213563), ('orders', 0.14563901353442366), ('catalogue', 0.12473121969405432), ('shipping', 0.10367518357361295)]","{'orders', 'front-end', 'user', 'catalogue', 'carts', 'shipping'}"
+folder:3,front-end,svc_latency,1,"[('front-end', 0.30101270555591686)]","{'orders', 'front-end', 'user', 'catalogue', 'carts'}"
+folder:3,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,svc_latency,1,"[('orders', 0.35773737847198417)]","{'orders', 'user', 'carts', 'shipping', 'payment'}"
+folder:3,user,svc_latency,1,"[('user', 0.4516958222908872)]","{'orders', 'user'}"
+folder:3,carts,svc_latency,1,"[('carts', 0.42228369246441755)]","{'carts', 'orders'}"
+folder:3,payment,svc_latency,1,"[('payment', 0.37827045905281875)]","{'orders', 'payment'}"
+folder:3,shipping,svc_latency,1,"[('shipping', 0.3897195996564661)]","{'orders', 'shipping'}"
+folder:3,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:3,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_cpu,10,[],set()
+folder:3,shipping,service_cpu,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:3,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_memory,2,"[('front-end', 0.40019089001308417), ('user', 0.2579862901232145)]","{'orders', 'catalogue', 'user'}"
+folder:3,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_memory,3,"[('front-end', 0.3564657392173768), ('orders', 0.23438166380679903), ('payment', 0.19788647695717984)]","{'orders', 'catalogue', 'user', 'payment'}"
+folder:3,shipping,service_memory,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:4,front-end,svc_latency,1,"[('front-end', 0.3053182411546197)]","{'orders', 'front-end', 'user', 'catalogue', 'carts'}"
+folder:4,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:4,orders,svc_latency,1,"[('orders', 0.3261814228278323)]","{'orders', 'user', 'carts', 'shipping', 'payment'}"
+folder:4,user,svc_latency,1,"[('user', 0.39035807866055017)]","{'orders', 'user'}"
+folder:4,carts,svc_latency,1,"[('carts', 0.43818819031860956)]","{'carts', 'orders'}"
+folder:4,payment,svc_latency,1,"[('payment', 0.3594664261404203)]","{'orders', 'payment'}"
+folder:4,shipping,svc_latency,1,"[('shipping', 0.3757602644658643)]","{'orders', 'shipping'}"
+folder:4,catalogue,service_cpu,2,"[('front-end', 0.4594613643153909), ('catalogue', 0.4305341050051167)]","{'orders', 'catalogue'}"
+folder:4,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:4,carts,service_cpu,1,"[('carts', 0.371671276665688)]","{'carts', 'catalogue'}"
+folder:4,payment,service_cpu,7,"[('front-end', 0.4253390645051841), ('catalogue', 0.28808019065914997), ('orders', 0.14697359978277447), ('user', 0.13960714505289157), ('shipping', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'catalogue', 'user'}"
+folder:4,shipping,service_cpu,4,"[('front-end', 0.297374322382605), ('orders', 0.21152028869831865), ('carts', 0.1417558522901923), ('shipping', 0.09658362045841482)]","{'carts', 'shipping', 'orders', 'front-end'}"
+folder:4,catalogue,service_memory,2,"[('front-end', 0.4420708518668568), ('catalogue', 0.40709214667431776)]","{'carts', 'catalogue', 'orders'}"
+folder:4,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_memory,2,"[('front-end', 0.4063975613909172), ('user', 0.23097319490014082)]","{'orders', 'catalogue', 'user'}"
+folder:4,carts,service_memory,1,"[('carts', 0.3287190191662041)]","{'carts', 'payment'}"
+folder:4,payment,service_memory,6,"[('front-end', 0.40269651916593796), ('catalogue', 0.2167769609065538), ('user', 0.14668705961191347), ('orders', 0.14267793756518665), ('carts', 0.09116152275040793), ('payment', 0.0)]","{'carts', 'catalogue', 'user', 'orders'}"
+folder:4,shipping,service_memory,3,"[('front-end', 0.34999824014859293), ('orders', 0.23890365173485176), ('shipping', 0.1617158408560066)]","{'orders', 'user', 'catalogue', 'carts', 'shipping'}"
+folder:5,front-end,svc_latency,1,"[('front-end', 0.30144121359949155)]","{'orders', 'front-end', 'user', 'catalogue', 'carts', 'payment'}"
+folder:5,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,svc_latency,1,"[('orders', 0.35400668226330156)]","{'orders', 'user', 'carts', 'shipping', 'payment'}"
+folder:5,user,svc_latency,1,"[('user', 0.43673816018452777)]","{'orders', 'user'}"
+folder:5,carts,svc_latency,2,"[('front-end', 0.3065459844303672), ('carts', 0.2564274332672696)]","{'carts', 'front-end', 'orders'}"
+folder:5,payment,svc_latency,3,"[('orders', 0.37090584117269854), ('front-end', 0.3152720530910478), ('payment', 0.3138221057362538)]","{'orders', 'payment'}"
+folder:5,shipping,svc_latency,4,"[('front-end', 0.39652840008101736), ('orders', 0.22288487242044586), ('carts', 0.21482754881162647), ('shipping', 0.1657591786869103)]","{'carts', 'shipping', 'orders'}"
+folder:5,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:5,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:5,carts,service_cpu,1,"[('carts', 0.3851445024640242)]","{'carts', 'orders'}"
+folder:5,payment,service_cpu,6,"[('front-end', 0.32832842278703733), ('catalogue', 0.19149996730186397), ('orders', 0.11110478389626642), ('user', 0.06085363525811657), ('carts', 0.029131587824445734), ('payment', 0.0)]","{'orders', 'front-end', 'user', 'catalogue', 'carts'}"
+folder:5,shipping,service_cpu,3,"[('front-end', 0.2714351013314501), ('orders', 0.19197704464294932), ('shipping', 0.1525067772799274)]","{'orders', 'front-end', 'user', 'catalogue', 'carts', 'shipping'}"
+folder:5,catalogue,service_memory,2,"[('front-end', 0.3160224042573746), ('catalogue', 0.2046392643056152)]","{'orders', 'front-end', 'user', 'catalogue', 'carts'}"
+folder:5,orders,service_memory,2,"[('front-end', 0.3140247223863658), ('orders', 0.13194820175395675)]","{'orders', 'front-end', 'user', 'catalogue', 'carts'}"
+folder:5,user,service_memory,5,"[('front-end', 0.31694611559608754), ('orders', 0.13065618215045788), ('catalogue', 0.11485566336707359), ('carts', 0.10178568293637082), ('user', 0.06635031813074216)]","{'orders', 'front-end', 'user', 'catalogue', 'carts'}"
+folder:5,carts,service_memory,2,"[('front-end', 0.3131122550109229), ('carts', 0.2214115885229975)]","{'orders', 'carts', 'front-end', 'user'}"
+folder:5,payment,service_memory,3,"[('front-end', 0.2703527435216209), ('orders', 0.17632139000656172), ('payment', 0.13792332690077633)]","{'orders', 'front-end', 'user', 'catalogue', 'carts', 'payment'}"
+folder:5,shipping,service_memory,4,"[('front-end', 0.29454381949116026), ('orders', 0.16783188908725383), ('user', 0.1113357278987296), ('shipping', 0.07291148767133565)]","{'orders', 'front-end', 'user', 'catalogue', 'carts', 'shipping'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'shipping', 'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.3832655514989451)]","{'payment', 'shipping', 'carts', 'user', 'orders'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'user', 'orders'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'orders', 'carts'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'shipping', 'orders'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'orders', 'carts'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'shipping', 'catalogue', 'orders'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346118), ('orders', 0.16364862615795628), ('shipping', 0.10711800087710233)]","{'shipping', 'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.33283225953946216), ('orders', 0.24438772808249845), ('payment', 0.13632246386776814)]","{'payment', 'shipping', 'carts', 'user', 'orders', 'catalogue'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'payment', 'shipping', 'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:2,front-end,svc_latency,1,"[('front-end', 0.27654000012432406)]","{'shipping', 'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:2,catalogue,svc_latency,2,"[('front-end', 0.369515642661511), ('catalogue', 0.23530530777710018)]","{'catalogue', 'orders', 'front-end'}"
+folder:2,orders,svc_latency,1,"[('orders', 0.40508902899894217)]","{'payment', 'shipping', 'carts', 'user', 'orders'}"
+folder:2,user,svc_latency,3,"[('front-end', 0.3026310969182622), ('orders', 0.15730030737375778), ('user', 0.14291073486495007)]","{'shipping', 'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:2,carts,svc_latency,2,"[('front-end', 0.3875747973915544), ('carts', 0.31291057618548607)]","{'orders', 'carts'}"
+folder:2,payment,svc_latency,1,"[('payment', 0.3556145343038235)]","{'payment', 'orders'}"
+folder:2,shipping,svc_latency,1,"[('shipping', 0.36147629746056714)]","{'shipping', 'orders'}"
+folder:2,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:2,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:2,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:2,payment,service_cpu,7,"[('front-end', 0.37140753809356686), ('orders', 0.19187279812347335), ('carts', 0.16149013418588604), ('catalogue', 0.12380568842596851), ('user', 0.08104765074285433), ('shipping', 0.0703761904282507), ('payment', 0.0)]","{'shipping', 'carts', 'user', 'orders', 'catalogue'}"
+folder:2,shipping,service_cpu,3,"[('front-end', 0.28580340006075), ('orders', 0.16552883327181972), ('shipping', 0.11402577850825155)]","{'shipping', 'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:2,catalogue,service_memory,2,"[('front-end', 0.30159435433154946), ('catalogue', 0.1606905470763529)]","{'payment', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:2,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_memory,2,"[('front-end', 0.3128650266631487), ('user', 0.2955785145702726)]","{'user', 'front-end'}"
+folder:2,carts,service_memory,1,"[('carts', 0.5405396329646597)]",{'carts'}
+folder:2,payment,service_memory,4,"[('front-end', 0.2752263522938575), ('orders', 0.16183870182949645), ('catalogue', 0.11436064559193165), ('payment', 0.10152915085143946)]","{'payment', 'shipping', 'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:2,shipping,service_memory,4,"[('front-end', 0.3008784805213563), ('orders', 0.14563901353442363), ('catalogue', 0.12473121969405432), ('shipping', 0.10367518357361295)]","{'shipping', 'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:3,front-end,svc_latency,1,"[('front-end', 0.3010127055559168)]","{'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:3,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,svc_latency,1,"[('orders', 0.3577373784719842)]","{'payment', 'shipping', 'carts', 'user', 'orders'}"
+folder:3,user,svc_latency,1,"[('user', 0.4516958222908872)]","{'user', 'orders'}"
+folder:3,carts,svc_latency,1,"[('carts', 0.42228369246441766)]","{'orders', 'carts'}"
+folder:3,payment,svc_latency,1,"[('payment', 0.37827045905281875)]","{'payment', 'orders'}"
+folder:3,shipping,svc_latency,1,"[('shipping', 0.3897195996564661)]","{'shipping', 'orders'}"
+folder:3,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:3,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_cpu,10,[],set()
+folder:3,shipping,service_cpu,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:3,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_memory,2,"[('front-end', 0.40019089001308417), ('user', 0.2579862901232145)]","{'user', 'catalogue', 'orders'}"
+folder:3,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_memory,3,"[('front-end', 0.35553311675764987), ('orders', 0.23766360175950743), ('payment', 0.19320253006893634)]","{'payment', 'user', 'catalogue', 'orders'}"
+folder:3,shipping,service_memory,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:4,front-end,svc_latency,1,"[('front-end', 0.30531824115461964)]","{'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:4,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:4,orders,svc_latency,1,"[('orders', 0.3261814228278323)]","{'payment', 'shipping', 'carts', 'user', 'orders'}"
+folder:4,user,svc_latency,1,"[('user', 0.39035807866055017)]","{'user', 'orders'}"
+folder:4,carts,svc_latency,1,"[('carts', 0.43818819031860945)]","{'orders', 'carts'}"
+folder:4,payment,svc_latency,1,"[('payment', 0.35946642614042035)]","{'payment', 'orders'}"
+folder:4,shipping,svc_latency,1,"[('shipping', 0.3757602644658643)]","{'shipping', 'orders'}"
+folder:4,catalogue,service_cpu,2,"[('front-end', 0.4594613643153909), ('catalogue', 0.4305341050051167)]","{'catalogue', 'orders'}"
+folder:4,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:4,carts,service_cpu,1,"[('carts', 0.371671276665688)]","{'catalogue', 'carts'}"
+folder:4,payment,service_cpu,7,"[('front-end', 0.4201599643233612), ('catalogue', 0.27540548073351734), ('orders', 0.15643058049028646), ('user', 0.14800397445283509), ('shipping', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'user', 'catalogue', 'orders'}"
+folder:4,shipping,service_cpu,4,"[('front-end', 0.299619976587982), ('orders', 0.2085676788144999), ('carts', 0.13664434017204366), ('shipping', 0.10049308987577088)]","{'shipping', 'orders', 'carts', 'front-end'}"
+folder:4,catalogue,service_memory,2,"[('front-end', 0.44121551125215835), ('catalogue', 0.40434018529564475)]","{'orders', 'catalogue', 'carts'}"
+folder:4,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_memory,2,"[('front-end', 0.4063975613909172), ('user', 0.23097319490014082)]","{'user', 'catalogue', 'orders'}"
+folder:4,carts,service_memory,1,"[('carts', 0.3287190191662041)]","{'payment', 'carts'}"
+folder:4,payment,service_memory,6,"[('front-end', 0.4009180405710077), ('catalogue', 0.21291742883975068), ('orders', 0.14647899835172912), ('user', 0.14407541948194003), ('carts', 0.09561011275557253), ('payment', 0.0)]","{'user', 'orders', 'catalogue', 'carts'}"
+folder:4,shipping,service_memory,3,"[('front-end', 0.349988370919017), ('orders', 0.2389505679615948), ('shipping', 0.16166107813707)]","{'shipping', 'carts', 'user', 'orders', 'catalogue'}"
+folder:5,front-end,svc_latency,1,"[('front-end', 0.30144121359949155)]","{'payment', 'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:5,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,svc_latency,1,"[('orders', 0.35400668226330156)]","{'payment', 'shipping', 'carts', 'user', 'orders'}"
+folder:5,user,svc_latency,1,"[('user', 0.4367381601845278)]","{'user', 'orders'}"
+folder:5,carts,svc_latency,2,"[('front-end', 0.3065459844303672), ('carts', 0.2564274332672696)]","{'orders', 'carts', 'front-end'}"
+folder:5,payment,svc_latency,3,"[('orders', 0.37090584117269854), ('front-end', 0.3152720530910478), ('payment', 0.3138221057362538)]","{'payment', 'orders'}"
+folder:5,shipping,svc_latency,4,"[('front-end', 0.3522320975767339), ('orders', 0.2882116686902977), ('carts', 0.27370122313097917), ('shipping', 0.08585501060198891)]","{'shipping', 'orders', 'carts'}"
+folder:5,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:5,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:5,carts,service_cpu,1,"[('carts', 0.3851445024640242)]","{'orders', 'carts'}"
+folder:5,payment,service_cpu,6,"[('front-end', 0.32832842278703733), ('catalogue', 0.19149996730186403), ('orders', 0.11110478389626643), ('user', 0.06085363525811659), ('carts', 0.029131587824445738), ('payment', 0.0)]","{'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:5,shipping,service_cpu,3,"[('front-end', 0.2714351013314501), ('orders', 0.19197704464294932), ('shipping', 0.1525067772799274)]","{'shipping', 'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:5,catalogue,service_memory,2,"[('front-end', 0.3160224042573746), ('catalogue', 0.20463926430561516)]","{'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:5,orders,service_memory,4,"[('front-end', 0.33508939419026573), ('catalogue', 0.11677228452891913), ('carts', 0.10410904165157782), ('orders', 0.08960496927376672)]","{'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:5,user,service_memory,5,"[('front-end', 0.3169461155960876), ('orders', 0.13065618215045788), ('catalogue', 0.11485566336707359), ('carts', 0.10178568293637082), ('user', 0.06635031813074216)]","{'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:5,carts,service_memory,2,"[('front-end', 0.30678285625052404), ('carts', 0.20201971466532853)]","{'user', 'carts', 'orders', 'front-end'}"
+folder:5,payment,service_memory,3,"[('front-end', 0.27035274352162086), ('orders', 0.17632139000656166), ('payment', 0.13792332690077633)]","{'payment', 'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:5,shipping,service_memory,4,"[('front-end', 0.29454381949116026), ('orders', 0.16783188908725383), ('user', 0.1113357278987296), ('shipping', 0.07291148767133565)]","{'shipping', 'carts', 'user', 'orders', 'front-end', 'catalogue'}"
+folder:1,front-end,svc_latency,1,"[('front-end', 0.27997649137524366)]","{'orders', 'catalogue', 'shipping', 'user', 'front-end', 'carts'}"
+folder:1,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,svc_latency,1,"[('orders', 0.38326555149894515)]","{'orders', 'shipping', 'user', 'payment', 'carts'}"
+folder:1,user,svc_latency,1,"[('user', 0.40643430495748495)]","{'orders', 'user'}"
+folder:1,carts,svc_latency,1,"[('carts', 0.4524925591519281)]","{'carts', 'orders'}"
+folder:1,payment,svc_latency,1,"[('payment', 0.37313693792762415)]","{'payment', 'orders'}"
+folder:1,shipping,svc_latency,1,"[('shipping', 0.36962360374391934)]","{'orders', 'shipping'}"
+folder:1,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_cpu,2,"[('front-end', 0.37729090909881713), ('carts', 0.35767281197358874)]","{'carts', 'orders'}"
+folder:1,payment,service_cpu,7,"[('front-end', 0.3539476623296712), ('orders', 0.2668034571667446), ('shipping', 0.2296403708337904), ('catalogue', 0.1496085096697937), ('user', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'catalogue', 'shipping'}"
+folder:1,shipping,service_cpu,3,"[('front-end', 0.2971670658346117), ('orders', 0.16364862615795625), ('shipping', 0.10711800087710233)]","{'orders', 'catalogue', 'shipping', 'user', 'front-end', 'carts'}"
+folder:1,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:1,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:1,user,service_memory,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:1,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:1,payment,service_memory,3,"[('front-end', 0.3336956459228286), ('orders', 0.24256222702013486), ('payment', 0.13895370191146994)]","{'orders', 'catalogue', 'shipping', 'payment', 'user', 'carts'}"
+folder:1,shipping,service_memory,3,"[('front-end', 0.28349130237064807), ('orders', 0.17351531462988223), ('shipping', 0.08758600792502358)]","{'orders', 'catalogue', 'shipping', 'payment', 'user', 'front-end', 'carts'}"
+folder:2,front-end,svc_latency,1,"[('front-end', 0.27654000012432406)]","{'orders', 'catalogue', 'shipping', 'user', 'front-end', 'carts'}"
+folder:2,catalogue,svc_latency,2,"[('front-end', 0.36951564266151093), ('catalogue', 0.23530530777710015)]","{'orders', 'catalogue', 'front-end'}"
+folder:2,orders,svc_latency,1,"[('orders', 0.40508902899894217)]","{'orders', 'shipping', 'user', 'payment', 'carts'}"
+folder:2,user,svc_latency,3,"[('front-end', 0.3026310969182623), ('orders', 0.15730030737375783), ('user', 0.1429107348649501)]","{'orders', 'catalogue', 'shipping', 'user', 'front-end', 'carts'}"
+folder:2,carts,svc_latency,2,"[('front-end', 0.3875747973915544), ('carts', 0.31291057618548607)]","{'carts', 'orders'}"
+folder:2,payment,svc_latency,1,"[('payment', 0.3556145343038235)]","{'payment', 'orders'}"
+folder:2,shipping,svc_latency,1,"[('shipping', 0.36147629746056714)]","{'orders', 'shipping'}"
+folder:2,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:2,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:2,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:2,payment,service_cpu,7,"[('front-end', 0.37140753809356686), ('orders', 0.19187279812347335), ('carts', 0.16149013418588604), ('catalogue', 0.12380568842596851), ('user', 0.08104765074285433), ('shipping', 0.0703761904282507), ('payment', 0.0)]","{'orders', 'catalogue', 'shipping', 'user', 'carts'}"
+folder:2,shipping,service_cpu,3,"[('front-end', 0.28580340006075), ('orders', 0.1655288332718197), ('shipping', 0.11402577850825152)]","{'orders', 'catalogue', 'shipping', 'user', 'front-end', 'carts'}"
+folder:2,catalogue,service_memory,2,"[('front-end', 0.30228208372909554), ('catalogue', 0.16312939971127763)]","{'orders', 'catalogue', 'user', 'front-end', 'payment'}"
+folder:2,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:2,user,service_memory,2,"[('front-end', 0.3128650266631487), ('user', 0.2955785145702726)]","{'front-end', 'user'}"
+folder:2,carts,service_memory,1,"[('carts', 0.5405396329646597)]",{'carts'}
+folder:2,payment,service_memory,4,"[('front-end', 0.27464393156627653), ('orders', 0.16341853615059354), ('catalogue', 0.11276118140789254), ('payment', 0.10010914976992895)]","{'orders', 'catalogue', 'shipping', 'payment', 'user', 'front-end', 'carts'}"
+folder:2,shipping,service_memory,4,"[('front-end', 0.3008784805213563), ('orders', 0.14563901353442366), ('catalogue', 0.12473121969405432), ('shipping', 0.10367518357361295)]","{'orders', 'catalogue', 'shipping', 'user', 'front-end', 'carts'}"
+folder:3,front-end,svc_latency,1,"[('front-end', 0.30101270555591686)]","{'orders', 'catalogue', 'user', 'front-end', 'carts'}"
+folder:3,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,svc_latency,1,"[('orders', 0.35773737847198417)]","{'orders', 'shipping', 'user', 'payment', 'carts'}"
+folder:3,user,svc_latency,1,"[('user', 0.4516958222908872)]","{'orders', 'user'}"
+folder:3,carts,svc_latency,1,"[('carts', 0.42228369246441755)]","{'carts', 'orders'}"
+folder:3,payment,svc_latency,1,"[('payment', 0.37827045905281875)]","{'payment', 'orders'}"
+folder:3,shipping,svc_latency,1,"[('shipping', 0.3897195996564661)]","{'orders', 'shipping'}"
+folder:3,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:3,carts,service_cpu,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_cpu,10,[],set()
+folder:3,shipping,service_cpu,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:3,catalogue,service_memory,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:3,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:3,user,service_memory,2,"[('front-end', 0.40019089001308417), ('user', 0.2579862901232145)]","{'orders', 'catalogue', 'user'}"
+folder:3,carts,service_memory,1,"[('carts', 0.5405396329646596)]",{'carts'}
+folder:3,payment,service_memory,3,"[('front-end', 0.3564657392173768), ('orders', 0.23438166380679906), ('payment', 0.19788647695717984)]","{'payment', 'orders', 'catalogue', 'user'}"
+folder:3,shipping,service_memory,1,"[('shipping', 0.5405398932771217)]",{'shipping'}
+folder:4,front-end,svc_latency,1,"[('front-end', 0.3053182411546197)]","{'orders', 'catalogue', 'user', 'front-end', 'carts'}"
+folder:4,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:4,orders,svc_latency,1,"[('orders', 0.3261814228278323)]","{'orders', 'shipping', 'payment', 'user', 'carts'}"
+folder:4,user,svc_latency,1,"[('user', 0.39035807866055017)]","{'orders', 'user'}"
+folder:4,carts,svc_latency,1,"[('carts', 0.43818819031860956)]","{'carts', 'orders'}"
+folder:4,payment,svc_latency,1,"[('payment', 0.35946642614042035)]","{'payment', 'orders'}"
+folder:4,shipping,svc_latency,1,"[('shipping', 0.3757602644658643)]","{'orders', 'shipping'}"
+folder:4,catalogue,service_cpu,2,"[('front-end', 0.4594613643153909), ('catalogue', 0.4305341050051167)]","{'orders', 'catalogue'}"
+folder:4,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:4,carts,service_cpu,1,"[('carts', 0.371671276665688)]","{'carts', 'catalogue'}"
+folder:4,payment,service_cpu,7,"[('front-end', 0.4253390645051841), ('catalogue', 0.28808019065914997), ('orders', 0.14697359978277447), ('user', 0.13960714505289157), ('shipping', 0.0), ('carts', 0.0), ('payment', 0.0)]","{'orders', 'catalogue', 'user'}"
+folder:4,shipping,service_cpu,4,"[('front-end', 0.297374322382605), ('orders', 0.21152028869831865), ('carts', 0.1417558522901923), ('shipping', 0.09658362045841482)]","{'carts', 'orders', 'front-end', 'shipping'}"
+folder:4,catalogue,service_memory,2,"[('front-end', 0.4420708518668568), ('catalogue', 0.40709214667431776)]","{'carts', 'orders', 'catalogue'}"
+folder:4,orders,service_memory,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:4,user,service_memory,2,"[('front-end', 0.4063975613909172), ('user', 0.23097319490014082)]","{'orders', 'catalogue', 'user'}"
+folder:4,carts,service_memory,1,"[('carts', 0.3287190191662041)]","{'carts', 'payment'}"
+folder:4,payment,service_memory,6,"[('front-end', 0.40269651916593796), ('catalogue', 0.21677696090655377), ('user', 0.14668705961191347), ('orders', 0.14267793756518662), ('carts', 0.0911615227504079), ('payment', 0.0)]","{'carts', 'orders', 'catalogue', 'user'}"
+folder:4,shipping,service_memory,3,"[('front-end', 0.34999824014859293), ('orders', 0.23890365173485176), ('shipping', 0.1617158408560066)]","{'orders', 'catalogue', 'shipping', 'user', 'carts'}"
+folder:5,front-end,svc_latency,1,"[('front-end', 0.30144121359949155)]","{'orders', 'catalogue', 'payment', 'user', 'front-end', 'carts'}"
+folder:5,catalogue,svc_latency,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,svc_latency,1,"[('orders', 0.35400668226330156)]","{'orders', 'shipping', 'payment', 'user', 'carts'}"
+folder:5,user,svc_latency,1,"[('user', 0.43673816018452777)]","{'orders', 'user'}"
+folder:5,carts,svc_latency,2,"[('front-end', 0.3065459844303672), ('carts', 0.2564274332672696)]","{'carts', 'orders', 'front-end'}"
+folder:5,payment,svc_latency,3,"[('orders', 0.37090584117269854), ('front-end', 0.3152720530910478), ('payment', 0.3138221057362538)]","{'payment', 'orders'}"
+folder:5,shipping,svc_latency,4,"[('front-end', 0.39652840008101736), ('orders', 0.22288487242044586), ('carts', 0.21482754881162647), ('shipping', 0.1657591786869103)]","{'carts', 'orders', 'shipping'}"
+folder:5,catalogue,service_cpu,1,"[('catalogue', 0.5405398932771217)]",{'catalogue'}
+folder:5,orders,service_cpu,1,"[('orders', 0.5405420020268137)]",{'orders'}
+folder:5,user,service_cpu,1,"[('user', 0.5405396329646596)]",{'user'}
+folder:5,carts,service_cpu,1,"[('carts', 0.3851445024640242)]","{'carts', 'orders'}"
+folder:5,payment,service_cpu,6,"[('front-end', 0.32832842278703733), ('catalogue', 0.19149996730186397), ('orders', 0.11110478389626642), ('user', 0.06085363525811657), ('carts', 0.029131587824445734), ('payment', 0.0)]","{'orders', 'catalogue', 'user', 'front-end', 'carts'}"
+folder:5,shipping,service_cpu,3,"[('front-end', 0.2714351013314501), ('orders', 0.19197704464294932), ('shipping', 0.1525067772799274)]","{'orders', 'catalogue', 'shipping', 'user', 'front-end', 'carts'}"
+folder:5,catalogue,service_memory,2,"[('front-end', 0.3160224042573746), ('catalogue', 0.2046392643056152)]","{'orders', 'catalogue', 'user', 'front-end', 'carts'}"
+folder:5,orders,service_memory,2,"[('front-end', 0.3140247223863658), ('orders', 0.13194820175395675)]","{'orders', 'catalogue', 'user', 'front-end', 'carts'}"
+folder:5,user,service_memory,5,"[('front-end', 0.31694611559608754), ('orders', 0.13065618215045788), ('catalogue', 0.11485566336707359), ('carts', 0.10178568293637082), ('user', 0.06635031813074216)]","{'orders', 'catalogue', 'user', 'front-end', 'carts'}"
+folder:5,carts,service_memory,2,"[('front-end', 0.3131122550109228), ('carts', 0.2214115885229975)]","{'carts', 'orders', 'front-end', 'user'}"
+folder:5,payment,service_memory,3,"[('front-end', 0.2703527435216209), ('orders', 0.17632139000656172), ('payment', 0.13792332690077633)]","{'orders', 'catalogue', 'payment', 'user', 'front-end', 'carts'}"
+folder:5,shipping,service_memory,4,"[('front-end', 0.29454381949116026), ('orders', 0.16783188908725383), ('user', 0.1113357278987296), ('shipping', 0.07291148767133565)]","{'orders', 'catalogue', 'shipping', 'user', 'front-end', 'carts'}"
